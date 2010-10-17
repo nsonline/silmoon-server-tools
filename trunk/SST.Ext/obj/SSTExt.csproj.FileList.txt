@@ -1,0 +1,12 @@
+obj\Debug\ResolveAssemblyReference.cache
+bin\Debug\SSTExt.dll
+bin\Debug\SSTExt.pdb
+bin\Debug\Silmoon.dll
+bin\Debug\Silmoon.pdb
+bin\Debug\Silmoon.xml
+obj\Debug\SSTExt.dll
+obj\Debug\SSTExt.pdb
+obj\Debug\SSTExt.ServiceControlForm.resources
+obj\Debug\SSTExt.csproj.GenerateResource.Cache
+bin\Debug\SST.Common.dll
+bin\Debug\SST.Common.pdb

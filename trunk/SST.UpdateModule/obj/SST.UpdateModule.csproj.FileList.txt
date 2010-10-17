@@ -1,0 +1,8 @@
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\SST.UpdateModule.csproj.GenerateResource.Cache
+bin\Debug\SST.UpdateModule.exe
+bin\Debug\SST.UpdateModule.pdb
+obj\Debug\SST.UpdateModule.Form1.resources
+obj\Debug\SST.UpdateModule.Properties.Resources.resources
+obj\Debug\SST.UpdateModule.exe
+obj\Debug\SST.UpdateModule.pdb

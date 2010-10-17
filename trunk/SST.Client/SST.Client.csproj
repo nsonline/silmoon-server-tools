@@ -1,0 +1,294 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{4995F45A-18CB-4373-A7CC-0DF9ED8F2D05}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SST.Client</RootNamespace>
+    <AssemblyName>SST.Client</AssemblyName>
+    <ApplicationIcon>
+    </ApplicationIcon>
+    <StartupObject>
+    </StartupObject>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>SST.Client.snk</AssemblyOriginatorKeyFile>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Silmoon, Version=0.0.0.60, Culture=neutral, PublicKeyToken=8f065e8743a60f45, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\silmoon-dotnet-library\SilmoonClassLib\bin\Debug\Silmoon.dll</HintPath>
+    </Reference>
+    <Reference Include="Silmoon.Windows, Version=0.0.0.26, Culture=neutral, PublicKeyToken=bc6a88a9d02cffba, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\silmoon-dotnet-library\Silmoon.Windows\bin\Debug\Silmoon.Windows.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Classes\DetectSmSvrServ.cs" />
+    <Compile Include="Classes\MainFormHelper.cs" />
+    <Compile Include="Classes\OnShownRun.cs" />
+    <Compile Include="FormControls\GeneralPageControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FormControls\GeneralPageControl.Designer.cs">
+      <DependentUpon>GeneralPageControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Classes\BackEvents.cs" />
+    <Compile Include="Classes\RunOnceClass.cs" />
+    <Compile Include="Classes\UpdateClass.cs">
+    </Compile>
+    <Compile Include="InitForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InitForm.Designer.cs">
+      <DependentUpon>InitForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MessageBoxs\DownloadWebDetect.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MessageBoxs\DownloadWebDetect.Designer.cs">
+      <DependentUpon>DownloadWebDetect.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Options\Settings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Options\Settings.Designer.cs">
+      <DependentUpon>Settings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="InitForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>InitForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormControls\GeneralPageControl.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>GeneralPageControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MessageBoxs\DownloadWebDetect.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>DownloadWebDetect.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Options\Settings.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Settings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Window\AboutForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>AboutForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Window\FirstWelcome.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FirstWelcome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Window\ListForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ListForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Window\LogView.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>LogView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Window\NewVersionForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>NewVersionForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Window\AboutForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Window\AboutForm.Designer.cs">
+      <DependentUpon>AboutForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Window\FirstWelcome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Window\FirstWelcome.Designer.cs">
+      <DependentUpon>FirstWelcome.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Window\ListForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Window\ListForm.Designer.cs">
+      <DependentUpon>ListForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Window\LogView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Window\LogView.Designer.cs">
+      <DependentUpon>LogView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Window\NewVersionForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Window\NewVersionForm.Designer.cs">
+      <DependentUpon>NewVersionForm.cs</DependentUpon>
+    </Compile>
+    <None Include="SST.Client.snk" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SST.Common\SST.Common.csproj">
+      <Project>{3893DF2F-8C4E-479D-A8BC-C58A9C71F93E}</Project>
+      <Name>SST.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SST.Controls\SST.Controls.csproj">
+      <Project>{DA76CDB1-0362-4947-AEBC-444C16C1CD3B}</Project>
+      <Name>SST.Controls</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SST.DLLManager\SST.DLLManager.csproj">
+      <Project>{164CAB24-ECA7-46D4-97FF-CB0D9EF2AC27}</Project>
+      <Name>SST.DLLManager</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SST.Plus\SST.Plus.csproj">
+      <Project>{F8627351-7251-4920-840B-16BC0FD821C9}</Project>
+      <Name>SST.Plus</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SST.Utility\SST.Utility.csproj">
+      <Project>{30ED1419-D90F-4B6E-AE29-272E26A0AAEE}</Project>
+      <Name>SST.Utility</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SST.Resource\SST.Resource.csproj">
+      <Project>{85CD85BF-B1F7-41EB-83BE-0922104E44E1}</Project>
+      <Name>SST.Resource</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SST.Ext\SST.Ext.csproj">
+      <Project>{A775BB16-4BB3-4881-8F03-E1DFBBC01FF2}</Project>
+      <Name>SST.Ext</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iis.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SmServIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SmServLogIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SmServrClient.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\InitButton1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\InitButton2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Exit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Exit21.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\InitButton3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Exit3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,16 @@
+I:\DotNet工程1\SilmoonServertools\SST.Resource\bin\Release\SST.Resource.dll
+I:\DotNet工程1\SilmoonServertools\SST.Resource\bin\Release\SST.Resource.pdb
+I:\DotNet工程1\SilmoonServertools\SST.Resource\obj\Release\ResolveAssemblyReference.cache
+I:\DotNet工程1\SilmoonServertools\SST.Resource\obj\Release\SST.Resource.Resource.resources
+I:\DotNet工程1\SilmoonServertools\SST.Resource\obj\Release\SST.Resource.dll
+I:\DotNet工程1\SilmoonServertools\SST.Resource\obj\Release\SST.Resource.pdb
+I:\DotNet工程1\SilmoonServertools\SST.Resource\obj\Release\GenerateResource-ResGen.read.1.tlog
+I:\DotNet工程1\SilmoonServertools\SST.Resource\obj\Release\GenerateResource-ResGen.write.1.tlog
+L:\DotNet工程1\SilmoonServertools\SST.Resource\obj\Release\ResolveAssemblyReference.cache
+L:\DotNet工程1\SilmoonServertools\SST.Resource\obj\Release\SST.Resource.Resource.resources
+L:\DotNet工程1\SilmoonServertools\SST.Resource\obj\Release\GenerateResource-ResGen.read.1.tlog
+L:\DotNet工程1\SilmoonServertools\SST.Resource\obj\Release\GenerateResource-ResGen.write.1.tlog
+L:\DotNet工程1\SilmoonServertools\SST.Resource\obj\Release\SST.Resource.dll
+L:\DotNet工程1\SilmoonServertools\SST.Resource\obj\Release\SST.Resource.pdb
+L:\DotNet工程1\SilmoonServertools\SST.Resource\bin\Release\SST.Resource.dll
+L:\DotNet工程1\SilmoonServertools\SST.Resource\bin\Release\SST.Resource.pdb

@@ -1,0 +1,16 @@
+bin\Debug\Start.exe
+bin\Debug\Start.pdb
+bin\Debug\SilmoonServertools.exe
+bin\Debug\Common.dll
+bin\Debug\Silmoon.dll
+bin\Debug\Network.dll
+bin\Debug\Common.pdb
+bin\Debug\Silmoon.pdb
+bin\Debug\Silmoon.xml
+bin\Debug\Network.pdb
+bin\Debug\SilmoonServertools.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\Start.Properties.Resources.resources
+obj\Debug\Start.csproj.GenerateResource.Cache
+obj\Debug\Start.exe
+obj\Debug\Start.pdb

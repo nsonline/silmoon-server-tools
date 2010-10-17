@@ -1,0 +1,13 @@
+bin\Debug\DownloadResourceLib.dll
+bin\Debug\DownloadResourceLib.pdb
+bin\Debug\Silmoon.dll
+bin\Debug\Silmoon.pdb
+bin\Debug\Silmoon.xml
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\DownloadResourceLib.Form1.resources
+obj\Debug\DownloadResourceLib.Properties.Resources.resources
+obj\Debug\DownloadResourceLib.csproj.GenerateResource.Cache
+obj\Debug\DownloadResourceLib.dll
+obj\Debug\DownloadResourceLib.pdb
+bin\Debug\SST.Common.dll
+bin\Debug\SST.Common.pdb

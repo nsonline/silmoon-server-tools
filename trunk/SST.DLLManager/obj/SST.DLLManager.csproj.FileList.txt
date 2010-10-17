@@ -1,0 +1,12 @@
+bin\Debug\SST.DLLManager.dll
+bin\Debug\SST.DLLManager.pdb
+bin\Debug\SST.Common.dll
+bin\Debug\SST.Common.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\SST.DLLManager.dll
+obj\Debug\SST.DLLManager.pdb
+obj\Debug\SST.DLLManager.PlusWindow.resources
+obj\Debug\SST.DLLManager.csproj.GenerateResource.Cache
+bin\Debug\Silmoon.dll
+bin\Debug\Silmoon.pdb
+bin\Debug\Silmoon.xml
