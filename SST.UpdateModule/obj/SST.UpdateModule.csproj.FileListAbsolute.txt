@@ -1,0 +1,16 @@
+G:\DotNet\SilmoonServertools\SST.UpdateModule\bin\Debug\SST.UpdateModule.exe
+G:\DotNet\SilmoonServertools\SST.UpdateModule\bin\Debug\SST.UpdateModule.pdb
+G:\DotNet\SilmoonServertools\SST.UpdateModule\obj\Debug\ResolveAssemblyReference.cache
+G:\DotNet\SilmoonServertools\SST.UpdateModule\obj\Debug\SST.UpdateModule.Form1.resources
+G:\DotNet\SilmoonServertools\SST.UpdateModule\obj\Debug\SST.UpdateModule.Properties.Resources.resources
+G:\DotNet\SilmoonServertools\SST.UpdateModule\obj\Debug\SST.UpdateModule.csproj.GenerateResource.Cache
+G:\DotNet\SilmoonServertools\SST.UpdateModule\obj\Debug\SST.UpdateModule.exe
+G:\DotNet\SilmoonServertools\SST.UpdateModule\obj\Debug\SST.UpdateModule.pdb
+G:\DotNet\SilmoonServertools\SST.UpdateModule\bin\Release\SST.UpdateModule.exe
+G:\DotNet\SilmoonServertools\SST.UpdateModule\bin\Release\SST.UpdateModule.pdb
+G:\DotNet\SilmoonServertools\SST.UpdateModule\obj\Release\ResolveAssemblyReference.cache
+G:\DotNet\SilmoonServertools\SST.UpdateModule\obj\Release\SST.UpdateModule.Form1.resources
+G:\DotNet\SilmoonServertools\SST.UpdateModule\obj\Release\SST.UpdateModule.Properties.Resources.resources
+G:\DotNet\SilmoonServertools\SST.UpdateModule\obj\Release\SST.UpdateModule.csproj.GenerateResource.Cache
+G:\DotNet\SilmoonServertools\SST.UpdateModule\obj\Release\SST.UpdateModule.exe
+G:\DotNet\SilmoonServertools\SST.UpdateModule\obj\Release\SST.UpdateModule.pdb

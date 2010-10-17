@@ -1,0 +1,14 @@
+bin\Debug\Silmoon.dll
+bin\Debug\SST.Common.dll
+bin\Debug\SST.Common.pdb
+bin\Debug\Silmoon.pdb
+bin\Debug\Silmoon.xml
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\SST.SSTExt.csproj.GenerateResource.Cache
+bin\Debug\SST.SSTExt.dll
+bin\Debug\SST.SSTExt.pdb
+obj\Debug\SST.SSTExt.ServiceControlForm.resources
+obj\Debug\SST.SSTExt.dll
+obj\Debug\SST.SSTExt.pdb
+obj\Debug\SST.SSTExt.Server.HServerModule.resources
+obj\Debug\SST.SSTExt.Server.RDPPortEdit.resources

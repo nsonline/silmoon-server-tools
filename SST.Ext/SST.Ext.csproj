@@ -1,0 +1,583 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A775BB16-4BB3-4881-8F03-E1DFBBC01FF2}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SST.Ext</RootNamespace>
+    <AssemblyName>SST.Ext</AssemblyName>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>SST.Ext.snk</AssemblyOriginatorKeyFile>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Silmoon, Version=0.0.0.70, Culture=neutral, PublicKeyToken=5077a436830b90d8, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\silmoon-dotnet-library\SilmoonClassLib\bin\Debug\Silmoon.dll</HintPath>
+    </Reference>
+    <Reference Include="Silmoon.Windows, Version=0.0.0.26, Culture=neutral, PublicKeyToken=5077a436830b90d8, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\silmoon-dotnet-library\Silmoon.Windows\bin\Debug\Silmoon.Windows.dll</HintPath>
+    </Reference>
+    <Reference Include="Silmoon.Windows.Server, Version=0.0.0.15, Culture=neutral, PublicKeyToken=5077a436830b90d8, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\silmoon-dotnet-library\Silmoon.Windows.Server\bin\Debug\Silmoon.Windows.Server.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Database\MSSQL\MSSQLChangePassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Database\MSSQL\MSSQLChangePassword.designer.cs">
+      <DependentUpon>MSSQLChangePassword.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Database\MSSQL\MSSQLConfig.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Database\MSSQL\MSSQLConfig.designer.cs">
+      <DependentUpon>MSSQLConfig.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Database\MSSQL\MSSQLDatabase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Database\MSSQL\MSSQLDatabase.designer.cs">
+      <DependentUpon>MSSQLDatabase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Database\MSSQL\MSSQLLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Database\MSSQL\MSSQLLogin.designer.cs">
+      <DependentUpon>MSSQLLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Database\MSSQL\MSSQLManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Database\MSSQL\MSSQLManager.designer.cs">
+      <DependentUpon>MSSQLManager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Database\MSSQL\MSSQLUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Database\MSSQL\MSSQLUser.designer.cs">
+      <DependentUpon>MSSQLUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Database\MSSQL\MSSQLViewList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Database\MSSQL\MSSQLViewList.designer.cs">
+      <DependentUpon>MSSQLViewList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Database\MySQL\MySQLChangePassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Database\MySQL\MySQLChangePassword.designer.cs">
+      <DependentUpon>MySQLChangePassword.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Database\MySQL\MySQLDatabase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Database\MySQL\MySQLDatabase.designer.cs">
+      <DependentUpon>MySQLDatabase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Database\MySQL\MySQLLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Database\MySQL\MySQLLogin.designer.cs">
+      <DependentUpon>MySQLLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Database\MySQL\MySQLManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Database\MySQL\MySQLManager.designer.cs">
+      <DependentUpon>MySQLManager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Database\MySQL\MySQLUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Database\MySQL\MySQLUser.designer.cs">
+      <DependentUpon>MySQLUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Database\MySQL\MySQLViewList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Database\MySQL\MySQLViewList.designer.cs">
+      <DependentUpon>MySQLViewList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DownloadAndRun.cs" />
+    <Compile Include="DownloadFileToDirectory.cs" />
+    <Compile Include="FileMon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FileMon.Designer.cs">
+      <DependentUpon>FileMon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GuideForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GuideForm.Designer.cs">
+      <DependentUpon>GuideForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IIS\BindingsListForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IIS\BindingsListForm.Designer.cs">
+      <DependentUpon>BindingsListForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IIS\CreateWebsiteForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IIS\CreateWebsiteForm.Designer.cs">
+      <DependentUpon>CreateWebsiteForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IIS\EditClass\PhpIniEditClass.cs" />
+    <Compile Include="IIS\IISActionClass.cs" />
+    <Compile Include="IIS\IISBackupForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IIS\IISBackupForm.designer.cs">
+      <DependentUpon>IISBackupForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IIS\IISLog\LogAnalysisForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IIS\IISLog\LogAnalysisForm.designer.cs">
+      <DependentUpon>LogAnalysisForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IIS\IISLog\LogAnalysisSpiderForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IIS\IISLog\LogAnalysisSpiderForm.designer.cs">
+      <DependentUpon>LogAnalysisSpiderForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IIS\IISLog\LogFilterOptions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IIS\IISLog\LogFilterOptions.designer.cs">
+      <DependentUpon>LogFilterOptions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IIS\IISLog\LogSelectSiteFilesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IIS\IISLog\LogSelectSiteFilesForm.designer.cs">
+      <DependentUpon>LogSelectSiteFilesForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IIS\IISManagerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IIS\IISManagerForm.Designer.cs">
+      <DependentUpon>IISManagerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IIS\InstallClass\MysqlInstaller.cs" />
+    <Compile Include="IIS\InstallClass\PhpInstaller.cs" />
+    <Compile Include="IIS\InstallClass\PhpInstallerWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IIS\InstallClass\PhpInstallerWindow.Designer.cs">
+      <DependentUpon>PhpInstallerWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IIS\Performance\ApplicationPoolManagerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IIS\Performance\ApplicationPoolManagerForm.Designer.cs">
+      <DependentUpon>ApplicationPoolManagerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IIS\Performance\ApplicationPoolInputBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IIS\Performance\ApplicationPoolInputBox.Designer.cs">
+      <DependentUpon>ApplicationPoolInputBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IIS\Performance\IISPerformanceViewList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IIS\Performance\IISPerformanceViewList.designer.cs">
+      <DependentUpon>IISPerformanceViewList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IIS\Tools\DotnetVersionConverter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IIS\Tools\DotnetVersionConverter.Designer.cs">
+      <DependentUpon>DotnetVersionConverter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Security\DriverFileSecurityWizard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Security\DriverFileSecurityWizard.Designer.cs">
+      <DependentUpon>DriverFileSecurityWizard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Security\CDriverWizardClass.cs" />
+    <Compile Include="Security\FileSecuritySettingsClass.cs" />
+    <Compile Include="Security\FileSecuritySetupForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Security\FileSecuritySetupForm.Designer.cs">
+      <DependentUpon>FileSecuritySetupForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Security\FileSystemACLWizard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Security\FileSystemACLWizard.Designer.cs">
+      <DependentUpon>FileSystemACLWizard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Security\ModuleSecuritySettingsClass.cs" />
+    <Compile Include="Security\SecuritySettings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Security\SecuritySettings.Designer.cs">
+      <DependentUpon>SecuritySettings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Security\ShowWindowsAccount.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Security\ShowWindowsAccount.Designer.cs">
+      <DependentUpon>ShowWindowsAccount.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Server\HServerModule.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Server\HServerModule.Designer.cs">
+      <DependentUpon>HServerModule.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Server\PublicFunction.cs" />
+    <Compile Include="Server\RDPPortEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Server\RDPPortEdit.Designer.cs">
+      <DependentUpon>RDPPortEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Server\SmSvrServ\LogView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Server\SmSvrServ\LogView.Designer.cs">
+      <DependentUpon>LogView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Server\SmSvrServ\OldServiceForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Server\SmSvrServ\OldServiceForm.Designer.cs">
+      <DependentUpon>OldServiceForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Server\SmSvrServ\SmSvrServForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Server\SmSvrServ\SmSvrServForm.Designer.cs">
+      <DependentUpon>SmSvrServForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ServiceControlForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ServiceControlForm.Designer.cs">
+      <DependentUpon>ServiceControlForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Security\SecurityWizardForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Security\SecurityWizardForm.Designer.cs">
+      <DependentUpon>SecurityWizardForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tools\AntiARP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tools\AntiARP.Designer.cs">
+      <DependentUpon>AntiARP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tools\Classes\HardFixClass.cs" />
+    <Compile Include="Tools\HardFixTool.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tools\HardFixTool.Designer.cs">
+      <DependentUpon>HardFixTool.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tools\ScanCode.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tools\ScanCode.Designer.cs">
+      <DependentUpon>ScanCode.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tools\ScanCodeOptionWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tools\ScanCodeOptionWindow.Designer.cs">
+      <DependentUpon>ScanCodeOptionWindow.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SST.Common\SST.Common.csproj">
+      <Project>{3893DF2F-8C4E-479D-A8BC-C58A9C71F93E}</Project>
+      <Name>SST.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SST.Resource\SST.Resource.csproj">
+      <Project>{85CD85BF-B1F7-41EB-83BE-0922104E44E1}</Project>
+      <Name>SST.Resource</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Database\MSSQL\MSSQLChangePassword.resx">
+      <DependentUpon>MSSQLChangePassword.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Database\MSSQL\MSSQLConfig.resx">
+      <DependentUpon>MSSQLConfig.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Database\MSSQL\MSSQLDatabase.resx">
+      <DependentUpon>MSSQLDatabase.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Database\MSSQL\MSSQLLogin.resx">
+      <DependentUpon>MSSQLLogin.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Database\MSSQL\MSSQLManager.resx">
+      <DependentUpon>MSSQLManager.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Database\MSSQL\MSSQLUser.resx">
+      <DependentUpon>MSSQLUser.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Database\MSSQL\MSSQLViewList.resx">
+      <DependentUpon>MSSQLViewList.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Database\MySQL\MySQLChangePassword.resx">
+      <DependentUpon>MySQLChangePassword.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Database\MySQL\MySQLDatabase.resx">
+      <DependentUpon>MySQLDatabase.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Database\MySQL\MySQLLogin.resx">
+      <DependentUpon>MySQLLogin.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Database\MySQL\MySQLManager.resx">
+      <DependentUpon>MySQLManager.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Database\MySQL\MySQLUser.resx">
+      <DependentUpon>MySQLUser.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Database\MySQL\MySQLViewList.resx">
+      <DependentUpon>MySQLViewList.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FileMon.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FileMon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GuideForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>GuideForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IIS\BindingsListForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>BindingsListForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IIS\CreateWebsiteForm.resx">
+      <DependentUpon>CreateWebsiteForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IIS\IISBackupForm.resx">
+      <DependentUpon>IISBackupForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IIS\IISLog\LogAnalysisForm.resx">
+      <DependentUpon>LogAnalysisForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IIS\IISLog\LogAnalysisSpiderForm.resx">
+      <DependentUpon>LogAnalysisSpiderForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IIS\IISLog\LogFilterOptions.resx">
+      <DependentUpon>LogFilterOptions.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IIS\IISLog\LogSelectSiteFilesForm.resx">
+      <DependentUpon>LogSelectSiteFilesForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IIS\IISManagerForm.resx">
+      <DependentUpon>IISManagerForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IIS\InstallClass\PhpInstallerWindow.resx">
+      <DependentUpon>PhpInstallerWindow.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IIS\Performance\ApplicationPoolManagerForm.resx">
+      <DependentUpon>ApplicationPoolManagerForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IIS\Performance\ApplicationPoolInputBox.resx">
+      <DependentUpon>ApplicationPoolInputBox.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IIS\Performance\IISPerformanceViewList.resx">
+      <DependentUpon>IISPerformanceViewList.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IIS\Tools\DotnetVersionConverter.resx">
+      <DependentUpon>DotnetVersionConverter.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Security\DriverFileSecurityWizard.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>DriverFileSecurityWizard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Security\FileSecuritySetupForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FileSecuritySetupForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Security\FileSystemACLWizard.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FileSystemACLWizard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Security\SecuritySettings.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>SecuritySettings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Security\ShowWindowsAccount.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ShowWindowsAccount.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Security\SecurityWizardForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>SecurityWizardForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Server\HServerModule.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>HServerModule.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Server\RDPPortEdit.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>RDPPortEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Server\SmSvrServ\LogView.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>LogView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Server\SmSvrServ\OldServiceForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>OldServiceForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Server\SmSvrServ\SmSvrServForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>SmSvrServForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ServiceControlForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ServiceControlForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tools\AntiARP.resx">
+      <DependentUpon>AntiARP.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tools\HardFixTool.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>HardFixTool.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tools\ScanCode.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ScanCode.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tools\ScanCodeOptionWindow.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ScanCodeOptionWindow.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="SST.Ext.snk" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

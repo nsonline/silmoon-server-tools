@@ -1,0 +1,12 @@
+bin\Debug\Network.dll
+bin\Debug\Silmoon.dll
+bin\Debug\Silmoon.pdb
+bin\Debug\Silmoon.xml
+bin\Debug\Network.pdb
+obj\Debug\ResolveAssemblyReference.cache
+bin\Debug\SST.Common.dll
+bin\Debug\SST.Common.pdb
+bin\Debug\SST.DLLManager.dll
+bin\Debug\SST.DLLManager.pdb
+obj\Debug\SST.DLLManager.dll
+obj\Debug\SST.DLLManager.pdb

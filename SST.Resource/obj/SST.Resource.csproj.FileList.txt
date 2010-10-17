@@ -1,0 +1,7 @@
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\SST.Resource.Resource.resources
+obj\Debug\SST.Resource.csproj.GenerateResource.Cache
+bin\Debug\SST.Resource.dll
+bin\Debug\SST.Resource.pdb
+obj\Debug\SST.Resource.dll
+obj\Debug\SST.Resource.pdb

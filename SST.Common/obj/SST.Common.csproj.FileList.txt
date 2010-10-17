@@ -1,0 +1,13 @@
+bin\Debug\SST.Common.dll
+bin\Debug\SST.Common.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\SST.Common.dll
+obj\Debug\SST.Common.pdb
+bin\Debug\Silmoon.dll
+bin\Debug\Silmoon.Web.dll
+bin\Debug\Silmoon.Windows.dll
+bin\Debug\Silmoon.pdb
+bin\Debug\Silmoon.xml
+bin\Debug\Silmoon.Web.pdb
+bin\Debug\Silmoon.Windows.pdb
+bin\Debug\Silmoon.Windows.xml

@@ -1,0 +1,14 @@
+G:\DotNet\SilmoonServertools\SST.Resource\bin\Debug\SST.Resource.dll
+G:\DotNet\SilmoonServertools\SST.Resource\bin\Debug\SST.Resource.pdb
+G:\DotNet\SilmoonServertools\SST.Resource\obj\Debug\ResolveAssemblyReference.cache
+G:\DotNet\SilmoonServertools\SST.Resource\obj\Debug\SST.Resource.Resource.resources
+G:\DotNet\SilmoonServertools\SST.Resource\obj\Debug\SST.Resource.csproj.GenerateResource.Cache
+G:\DotNet\SilmoonServertools\SST.Resource\obj\Debug\SST.Resource.dll
+G:\DotNet\SilmoonServertools\SST.Resource\obj\Debug\SST.Resource.pdb
+G:\DotNet\SilmoonServertools\SST.Resource\bin\Release\SST.Resource.dll
+G:\DotNet\SilmoonServertools\SST.Resource\bin\Release\SST.Resource.pdb
+G:\DotNet\SilmoonServertools\SST.Resource\obj\Release\ResolveAssemblyReference.cache
+G:\DotNet\SilmoonServertools\SST.Resource\obj\Release\SST.Resource.Resource.resources
+G:\DotNet\SilmoonServertools\SST.Resource\obj\Release\SST.Resource.csproj.GenerateResource.Cache
+G:\DotNet\SilmoonServertools\SST.Resource\obj\Release\SST.Resource.dll
+G:\DotNet\SilmoonServertools\SST.Resource\obj\Release\SST.Resource.pdb
