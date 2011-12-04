@@ -42,7 +42,7 @@ namespace SST.Client
                 this.Invoke(OnInitGBCComplete);
                 
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 MessageBox.Show("加载重要库出错：\r\n    " + ex.Message + "\r\n\r\n" + ex.ToString(), "崩溃", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 Environment.Exit(2);

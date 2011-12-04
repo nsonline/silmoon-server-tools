@@ -32,7 +32,7 @@ namespace SST.Plus
         {
             try
             {
-                _g.ConfigIni.WriteInivalue(_plusName, "NetPort", SmInt.ControlIntValue(int.Parse(ctlPortTextBox.Text), 1, 65535, true).ToString());
+                _g.ConfigIni.WriteInivalue(_plusName, "NetPort", SmInt.CheckIntValue(int.Parse(ctlPortTextBox.Text), 1, 65535, true).ToString());
                 MessageBox.Show("成功提交到全局配置！", "OK", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
             catch (Exception ex) { _g.PopErrorMessage(ex.Message); }

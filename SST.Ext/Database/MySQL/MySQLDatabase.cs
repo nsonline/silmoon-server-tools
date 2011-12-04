@@ -5,18 +5,18 @@ using System.Data;
 using System.Drawing;
 using System.Text;
 using System.Windows.Forms;
-using Silmoon.Data.Odbc;
+using Silmoon.Data.SqlClient;
 using Silmoon.Data.SqlUtility;
 
 namespace SST.Ext.Database.MySQL
 {
     public partial class MySQLDatabase : Form
     {
-        SmOdbcClient _odbc;
+        SmMySqlClient _odbc;
         MySQLHelper _mysql;
         GBC _g;
 
-        public MySQLDatabase(SmOdbcClient odbc, MySQLHelper mysql, GBC g)
+        public MySQLDatabase(SmMySqlClient odbc, MySQLHelper mysql, GBC g)
         {
             _g = g;
             InitializeComponent();

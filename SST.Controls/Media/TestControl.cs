@@ -55,8 +55,8 @@ namespace SST.Controls.Media
             if (_player == null) return;
             if ((OpenDefaultMuisc.Text == "测试音乐播放(&S)"))
             {
-                _player.FilePath = "http://server4.file.silmoon.com/Res/Oh!.mp3";
-                ctlPlayTipLabel.Text = "远程文件:少女时代 Oh!.mp3";
+                _player.FilePath = "http://link.silmoon.net/r/file1-s/flag_anthem_of_republic_of_china.mp3";
+                ctlPlayTipLabel.Text = "中国民国 国旗歌";
                 _player.Play();
             }
             else

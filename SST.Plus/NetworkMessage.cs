@@ -36,7 +36,7 @@ namespace SST.Plus
             string[] cmdArr = dataString.Split(new string[] { "`" }, StringSplitOptions.None);
             foreach (StateFlag unit in _netUnit)
             {
-                if (unit.ID == tcpReader.ClientID && unit.DoubleStateFlag)
+                if (unit.ID == tcpReader.ClientID && unit.BooleanFlag)
                 {
                     __message(dataString, cmdArr, tcpReader);
                     return;
@@ -47,7 +47,7 @@ namespace SST.Plus
             {
                 StateFlag unit = new StateFlag();
                 unit.StringFlag = cmdArr[1];
-                unit.DoubleStateFlag = true;
+                unit.BooleanFlag = true;
                 unit.ID = tcpReader.ClientID;
                 _g.LoggerObj.WriteLogLine("¼ì²âÁ¬½Ó(" + unit.StringFlag + ")µÇÂ½");
                 _netUnit.Add(unit);

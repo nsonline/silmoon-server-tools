@@ -81,7 +81,7 @@ public class GBC : Silmoon.MySilmoon.SilmoonProductGBCInternat
 
     private void InitClass()
     {
-        InitProductInfo("silmoonservertool", "7.13.2");
+        InitProductInfo("silmoonservertool", "7.14");
         Pathinfo = new PathInfo(this);
         LoggerObj = new Logger(this);
         _ini = new IniFile(Pathinfo.ConfigPath);
@@ -340,7 +340,7 @@ public class ServerInfo : MarshalByRefObject
                 try
                 {
                     WebClient _wclit = new WebClient();
-                    string _ip = _wclit.DownloadString("http://www.silmoon.com/system/ip/c");
+                    string _ip = _wclit.DownloadString("https://encrypted.silmoon.com/system/ip/c");
                     _wclit.Dispose();
                     _wanIP = IPAddress.Parse(_ip);
                 }
@@ -396,11 +396,11 @@ public class EncryptDocument : MarshalByRefObject
     }
     public string ReadString(string key)
     {
-        return EncryptString.DiscryptSilmoonBinry(_ini.ReadInivalue("Encrypt", EncryptString.EncryptSilmoonBinry(key)));
+        return EncryptString.DiscryptSilmoonBinary(_ini.ReadInivalue("Encrypt", EncryptString.EncryptSilmoonBinary(key)));
     }
-    public void WriteString(string key,string value)
+    public void WriteString(string key, string value)
     {
-        _ini.WriteInivalue("Encrypt", EncryptString.EncryptSilmoonBinry(key), EncryptString.EncryptSilmoonBinry(value));
+        _ini.WriteInivalue("Encrypt", EncryptString.EncryptSilmoonBinary(key), EncryptString.EncryptSilmoonBinary(value));
     }
 }
 public class PlusManager

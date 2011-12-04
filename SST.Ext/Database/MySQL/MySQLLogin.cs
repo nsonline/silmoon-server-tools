@@ -6,7 +6,7 @@ using System.Drawing;
 using System.Text;
 using System.Windows.Forms;
 using Silmoon.Data.SqlUtility;
-using Silmoon.Data.Odbc;
+using Silmoon.Data.SqlClient;
 
 namespace SST.Ext.Database.MySQL
 {
@@ -20,17 +20,23 @@ namespace SST.Ext.Database.MySQL
 
         private void ctlLoginButton_Click(object sender, EventArgs e)
         {
-            string constr = MySQLHelper.MakeConnectionString(ctlServerTextBox.Text, ctlUsernameTextBox.Text, ctlPasswordTextBox.Text, ctlDatabaseTextBox.Text);
-            SmOdbcClient odbc = new SmOdbcClient(constr);
+            
+            MySql.Data.MySqlClient.MySqlConnectionStringBuilder stringBuild = new MySql.Data.MySqlClient.MySqlConnectionStringBuilder();
+            stringBuild.Server = ctlServerTextBox.Text;
+            stringBuild.UserID = ctlUsernameTextBox.Text;
+            stringBuild.Password = ctlPasswordTextBox.Text;
+            stringBuild.Database = ctlDatabaseTextBox.Text;
+            string constr = stringBuild.GetConnectionString(true);
+            SmMySqlClient sql = new SmMySqlClient(constr);
             try
             {
-                odbc.Open();
-                odbc.Close();
+                sql.Open();
+                sql.Close();
                 ConnectionString = constr;
                 Close();
             }
             catch (Exception ex) { MessageBox.Show("µÇÂ½Ê§°Ü£¡\r\n" + ex.Message); }
-            odbc.Dispose();
+            sql.Dispose();
         }
 
         private void MySQLLogin_Shown(object sender, EventArgs e)

@@ -64,7 +64,7 @@ namespace SST.Controls
             ctlIPAddressLabel.Text = _g.serverInfo.WanIP.ToString();
             foreach (IPAddress ip in _g.serverInfo.LocalIP)
             {
-                if (ip.ToString().Contains(":"))
+                if (ip.AddressFamily == System.Net.Sockets.AddressFamily.InterNetworkV6)
                     continue;
                 ctlCIPLinkButton.Text = ip.ToString();
                 break;
