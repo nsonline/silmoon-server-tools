@@ -51,7 +51,7 @@ namespace SST.Client.Classes
                     return;
                 }
                 _g.LoggerObj.WriteLogLine("(SVR)检查SmSvrServ的版本与安全性.");
-                _tcp.SendString("system`loginsmsvrserv`" + sce.Decrypto(ini.ReadInivalue("Server", "NetCmdPassword")));
+                _tcp.SendString("system`loginsmsvrserv`" + sce.Decrypt(ini.ReadInivalue("Server", "NetCmdPassword")));
                 Thread.Sleep(1000);
 
                 string s = GetReceived();

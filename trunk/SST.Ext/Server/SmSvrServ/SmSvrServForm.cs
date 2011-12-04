@@ -81,7 +81,7 @@ namespace SST.Ext.Server.SmSvrServ
                 svcDetectEnable.Checked = SmString.StringToBool(ini.ReadInivalue("Server", "DetectEnable"));
 
                 netCmdPort.Text = ini.ReadInivalue("Server", "NetCmdPort");
-                netCmdPwd.Text = sce.Decrypto(ini.ReadInivalue("Server", "NetCmdPassword"));
+                netCmdPwd.Text = sce.Decrypt(ini.ReadInivalue("Server", "NetCmdPassword"));
                 netCmdEnable.Checked = SmString.StringToBool(ini.ReadInivalue("Server", "NetCmdEnable"));
 
                 rdpPortFixEnable.Checked = SmString.StringToBool(ini.ReadInivalue("Server", "FixRDPPort"));
@@ -148,8 +148,8 @@ namespace SST.Ext.Server.SmSvrServ
                             ini.WriteInivalue("Server", "DetectSleep", int.Parse(svcDetectSleep.Text).ToString());
                             ini.WriteInivalue("Server", "DetectEnable", svcDetectEnable.Checked.ToString());
 
-                            if (!IsEmpty(netCmdPwd.Text)) ini.WriteInivalue("Server", "NetCmdPassword", sce.Encrypto(netCmdPwd.Text)); else return;
-                            ini.WriteInivalue("Server", "NetCmdPort", SmInt.ControlIntValue(int.Parse(netCmdPort.Text), 1, 65535, true).ToString());
+                            if (!IsEmpty(netCmdPwd.Text)) ini.WriteInivalue("Server", "NetCmdPassword", sce.Encrypt(netCmdPwd.Text)); else return;
+                            ini.WriteInivalue("Server", "NetCmdPort", SmInt.CheckIntValue(int.Parse(netCmdPort.Text), 1, 65535, true).ToString());
                             ini.WriteInivalue("Server", "NetCmdEnable", netCmdEnable.Checked.ToString());
 
                             ini.WriteInivalue("Server", "FixRDPPort", rdpPortFixEnable.Checked.ToString());

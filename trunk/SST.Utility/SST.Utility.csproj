@@ -58,15 +58,15 @@
   <ItemGroup>
     <Reference Include="Silmoon, Version=0.0.0.60, Culture=neutral, PublicKeyToken=8f065e8743a60f45, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\silmoon-dotnet-library\SilmoonClassLib\bin\Debug\Silmoon.dll</HintPath>
+      <HintPath>..\..\SilmoonClassLib\SilmoonClassLib\bin\Debug\Silmoon.dll</HintPath>
     </Reference>
-    <Reference Include="Silmoon.Utility, Version=0.0.0.6, Culture=neutral, PublicKeyToken=989a5f5b91374e24, processorArchitecture=MSIL">
+    <Reference Include="Silmoon.Utility, Version=0.0.0.2, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\silmoon-dotnet-library\Silmoon.Utility\bin\Debug\Silmoon.Utility.dll</HintPath>
+      <HintPath>..\..\SilmoonClassLib\Silmoon.Utility\bin\Debug\Silmoon.Utility.dll</HintPath>
     </Reference>
-    <Reference Include="Silmoon.Windows, Version=0.0.0.26, Culture=neutral, PublicKeyToken=bc6a88a9d02cffba, processorArchitecture=MSIL">
+    <Reference Include="Silmoon.Windows, Version=0.0.1.5, Culture=neutral, PublicKeyToken=bc6a88a9d02cffba, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\silmoon-dotnet-library\Silmoon.Windows\bin\Debug\Silmoon.Windows.dll</HintPath>
+      <HintPath>..\..\SilmoonClassLib\Silmoon.Windows\bin\Debug\Silmoon.Windows.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
@@ -208,9 +208,7 @@
       <Install>true</Install>
     </BootstrapperPackage>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="WebmaterTools\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

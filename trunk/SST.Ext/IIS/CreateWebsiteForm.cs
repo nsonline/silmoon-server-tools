@@ -94,7 +94,7 @@ namespace SST.Ext.IIS
         {
             try
             {
-                SmInt.ControlIntValue(int.Parse(ctlPort.Text), 1, 65535, true);
+                SmInt.CheckIntValue(int.Parse(ctlPort.Text), 1, 65535, true);
                 string ip = null;
                 if (ctlIPList.Text == "*")
                     ip = "";
@@ -189,6 +189,7 @@ namespace SST.Ext.IIS
         private void ctlConfirm_Click(object sender, EventArgs e)
         {
             Control.CheckForIllegalCrossThreadCalls = false;
+            ctlConfirm.Enabled = false;
 
             Thread _th_create = new Thread(_proc_th_create);
             _th_create.IsBackground = true;
@@ -196,7 +197,6 @@ namespace SST.Ext.IIS
         }
         void _proc_th_create()
         {
-            ctlConfirm.Enabled = false;
             if (ctlSiteName.Text == "")
             {
                 MessageBox.Show("网站名称不能为空！", "提示！", MessageBoxButtons.OK, MessageBoxIcon.Information);

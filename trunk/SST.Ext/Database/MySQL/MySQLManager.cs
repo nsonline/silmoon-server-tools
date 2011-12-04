@@ -6,14 +6,14 @@ using System.Drawing;
 using System.Text;
 using System.Windows.Forms;
 using Silmoon.Data.SqlUtility;
-using Silmoon.Data.Odbc;
+using Silmoon.Data.SqlClient;
 
 namespace SST.Ext.Database.MySQL
 {
     public partial class MySQLManager : Form
     {
         public MySQLLogin loginForm;
-        SmOdbcClient _odbc;
+        SmMySqlClient _odbc;
         MySQLHelper _mysql;
         GBC _g;
         public MySQLManager(GBC g)
@@ -43,7 +43,7 @@ namespace SST.Ext.Database.MySQL
             if (_odbc != null)
                 _odbc.Dispose();
 
-            _odbc = new SmOdbcClient(loginForm.ConnectionString);
+            _odbc = new SmMySqlClient(loginForm.ConnectionString);
             _odbc.Open();
             _mysql = new MySQLHelper(_odbc);
 

@@ -5,20 +5,20 @@ using System.Data;
 using System.Drawing;
 using System.Text;
 using System.Windows.Forms;
-using Silmoon.Data.Odbc;
+using Silmoon.Data.SqlClient;
 using Silmoon.Data.SqlUtility;
 
 namespace SST.Ext.Database.MySQL
 {
     public partial class MySQLViewList : Form
     {
-        SmOdbcClient _odbc;
+        SmMySqlClient _odbc;
         MySQLHelper _mysql;
         int _option;
         string _name;
 
         bool edited = false;
-        public MySQLViewList(string name,SmOdbcClient odbc, MySQLHelper mysql, int option)
+        public MySQLViewList(string name, SmMySqlClient odbc, MySQLHelper mysql, int option)
         {
             InitializeComponent();
             _odbc = odbc;

@@ -57,7 +57,6 @@
             this.网络数据包监控MToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.网络连接查看NToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.站长实用工具WToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.dNSPodClientDToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.设置SToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.系统文件安全向导FToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.文件详细安全向导SToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -153,7 +152,7 @@
             this.帮助HToolStripMenuItem});
             this.TopMenu.Location = new System.Drawing.Point(0, 0);
             this.TopMenu.Name = "TopMenu";
-            this.TopMenu.Size = new System.Drawing.Size(618, 24);
+            this.TopMenu.Size = new System.Drawing.Size(618, 25);
             this.TopMenu.TabIndex = 0;
             this.TopMenu.Text = "menuStrip1";
             // 
@@ -162,13 +161,13 @@
             this.文件FToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.退出XToolStripMenuItem});
             this.文件FToolStripMenuItem.Name = "文件FToolStripMenuItem";
-            this.文件FToolStripMenuItem.Size = new System.Drawing.Size(59, 20);
+            this.文件FToolStripMenuItem.Size = new System.Drawing.Size(58, 21);
             this.文件FToolStripMenuItem.Text = "文件(&F)";
             // 
             // 退出XToolStripMenuItem
             // 
             this.退出XToolStripMenuItem.Name = "退出XToolStripMenuItem";
-            this.退出XToolStripMenuItem.Size = new System.Drawing.Size(112, 22);
+            this.退出XToolStripMenuItem.Size = new System.Drawing.Size(116, 22);
             this.退出XToolStripMenuItem.Text = "退出(&X)";
             this.退出XToolStripMenuItem.Click += new System.EventHandler(this.退出XToolStripMenuItem_Click);
             // 
@@ -179,13 +178,13 @@
             this.视图VToolStripMenuItem,
             this.显示文件事件FToolStripMenuItem1});
             this.查看VToolStripMenuItem.Name = "查看VToolStripMenuItem";
-            this.查看VToolStripMenuItem.Size = new System.Drawing.Size(59, 20);
+            this.查看VToolStripMenuItem.Size = new System.Drawing.Size(60, 21);
             this.查看VToolStripMenuItem.Text = "查看(&V)";
             // 
             // 日志LToolStripMenuItem
             // 
             this.日志LToolStripMenuItem.Name = "日志LToolStripMenuItem";
-            this.日志LToolStripMenuItem.Size = new System.Drawing.Size(160, 22);
+            this.日志LToolStripMenuItem.Size = new System.Drawing.Size(162, 22);
             this.日志LToolStripMenuItem.Text = "日志(&L)";
             this.日志LToolStripMenuItem.Click += new System.EventHandler(this.日志LToolStripMenuItem_Click);
             // 
@@ -194,20 +193,20 @@
             this.视图VToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.工具栏TToolStripMenuItem});
             this.视图VToolStripMenuItem.Name = "视图VToolStripMenuItem";
-            this.视图VToolStripMenuItem.Size = new System.Drawing.Size(160, 22);
+            this.视图VToolStripMenuItem.Size = new System.Drawing.Size(162, 22);
             this.视图VToolStripMenuItem.Text = "视图(&V)";
             // 
             // 工具栏TToolStripMenuItem
             // 
             this.工具栏TToolStripMenuItem.Name = "工具栏TToolStripMenuItem";
-            this.工具栏TToolStripMenuItem.Size = new System.Drawing.Size(124, 22);
+            this.工具栏TToolStripMenuItem.Size = new System.Drawing.Size(127, 22);
             this.工具栏TToolStripMenuItem.Text = "工具栏(&T)";
             this.工具栏TToolStripMenuItem.Click += new System.EventHandler(this.工具栏TToolStripMenuItem_Click);
             // 
             // 显示文件事件FToolStripMenuItem1
             // 
             this.显示文件事件FToolStripMenuItem1.Name = "显示文件事件FToolStripMenuItem1";
-            this.显示文件事件FToolStripMenuItem1.Size = new System.Drawing.Size(160, 22);
+            this.显示文件事件FToolStripMenuItem1.Size = new System.Drawing.Size(162, 22);
             this.显示文件事件FToolStripMenuItem1.Text = "显示文件事件(&F)";
             this.显示文件事件FToolStripMenuItem1.Click += new System.EventHandler(this.显示文件事件FToolStripMenuItem1_Click);
             // 
@@ -217,13 +216,13 @@
             this.重启IISIToolStripMenuItem,
             this.控制服务CToolStripMenuItem});
             this.服务CToolStripMenuItem.Name = "服务CToolStripMenuItem";
-            this.服务CToolStripMenuItem.Size = new System.Drawing.Size(59, 20);
+            this.服务CToolStripMenuItem.Size = new System.Drawing.Size(60, 21);
             this.服务CToolStripMenuItem.Text = "服务(&C)";
             // 
             // 重启IISIToolStripMenuItem
             // 
             this.重启IISIToolStripMenuItem.Name = "重启IISIToolStripMenuItem";
-            this.重启IISIToolStripMenuItem.Size = new System.Drawing.Size(136, 22);
+            this.重启IISIToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.重启IISIToolStripMenuItem.Text = "重启IIS(&I)";
             this.重启IISIToolStripMenuItem.Click += new System.EventHandler(this.重启IISIToolStripMenuItem_Click);
             // 
@@ -234,27 +233,27 @@
             this.mySQLMToolStripMenuItem,
             this.mSSQLSToolStripMenuItem});
             this.控制服务CToolStripMenuItem.Name = "控制服务CToolStripMenuItem";
-            this.控制服务CToolStripMenuItem.Size = new System.Drawing.Size(136, 22);
+            this.控制服务CToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.控制服务CToolStripMenuItem.Text = "控制服务(&C)";
             // 
             // iISIToolStripMenuItem
             // 
             this.iISIToolStripMenuItem.Name = "iISIToolStripMenuItem";
-            this.iISIToolStripMenuItem.Size = new System.Drawing.Size(118, 22);
+            this.iISIToolStripMenuItem.Size = new System.Drawing.Size(137, 22);
             this.iISIToolStripMenuItem.Text = "IIS(&I)";
             this.iISIToolStripMenuItem.Click += new System.EventHandler(this.iISIToolStripMenuItem_Click);
             // 
             // mySQLMToolStripMenuItem
             // 
             this.mySQLMToolStripMenuItem.Name = "mySQLMToolStripMenuItem";
-            this.mySQLMToolStripMenuItem.Size = new System.Drawing.Size(118, 22);
+            this.mySQLMToolStripMenuItem.Size = new System.Drawing.Size(137, 22);
             this.mySQLMToolStripMenuItem.Text = "MySQL(&M)";
             this.mySQLMToolStripMenuItem.Click += new System.EventHandler(this.mySQLMToolStripMenuItem_Click);
             // 
             // mSSQLSToolStripMenuItem
             // 
             this.mSSQLSToolStripMenuItem.Name = "mSSQLSToolStripMenuItem";
-            this.mSSQLSToolStripMenuItem.Size = new System.Drawing.Size(118, 22);
+            this.mSSQLSToolStripMenuItem.Size = new System.Drawing.Size(137, 22);
             this.mSSQLSToolStripMenuItem.Text = "MSSQL(&S)";
             this.mSSQLSToolStripMenuItem.Click += new System.EventHandler(this.mSSQLSToolStripMenuItem_Click);
             // 
@@ -272,13 +271,13 @@
             this.网络类工具NToolStripMenuItem,
             this.站长实用工具WToolStripMenuItem});
             this.工具TToolStripMenuItem.Name = "工具TToolStripMenuItem";
-            this.工具TToolStripMenuItem.Size = new System.Drawing.Size(59, 20);
+            this.工具TToolStripMenuItem.Size = new System.Drawing.Size(59, 21);
             this.工具TToolStripMenuItem.Text = "工具(&T)";
             // 
             // 文件监控FToolStripMenuItem
             // 
             this.文件监控FToolStripMenuItem.Name = "文件监控FToolStripMenuItem";
-            this.文件监控FToolStripMenuItem.Size = new System.Drawing.Size(184, 22);
+            this.文件监控FToolStripMenuItem.Size = new System.Drawing.Size(187, 22);
             this.文件监控FToolStripMenuItem.Text = "文件监控(&F)";
             this.文件监控FToolStripMenuItem.Click += new System.EventHandler(this.文件监控FToolStripMenuItem_Click);
             // 
@@ -287,55 +286,55 @@
             this.远程桌面端口RToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.端口修改EToolStripMenuItem});
             this.远程桌面端口RToolStripMenuItem.Name = "远程桌面端口RToolStripMenuItem";
-            this.远程桌面端口RToolStripMenuItem.Size = new System.Drawing.Size(184, 22);
+            this.远程桌面端口RToolStripMenuItem.Size = new System.Drawing.Size(187, 22);
             this.远程桌面端口RToolStripMenuItem.Text = "远程桌面端口(&R)";
             // 
             // 端口修改EToolStripMenuItem
             // 
             this.端口修改EToolStripMenuItem.Name = "端口修改EToolStripMenuItem";
-            this.端口修改EToolStripMenuItem.Size = new System.Drawing.Size(136, 22);
+            this.端口修改EToolStripMenuItem.Size = new System.Drawing.Size(139, 22);
             this.端口修改EToolStripMenuItem.Text = "端口修改(&E)";
             this.端口修改EToolStripMenuItem.Click += new System.EventHandler(this.端口修改EToolStripMenuItem_Click);
             // 
             // 组件下载器CToolStripMenuItem1
             // 
             this.组件下载器CToolStripMenuItem1.Name = "组件下载器CToolStripMenuItem1";
-            this.组件下载器CToolStripMenuItem1.Size = new System.Drawing.Size(184, 22);
+            this.组件下载器CToolStripMenuItem1.Size = new System.Drawing.Size(187, 22);
             this.组件下载器CToolStripMenuItem1.Text = "组件下载器(&C)";
             this.组件下载器CToolStripMenuItem1.Click += new System.EventHandler(this.组件下载器CToolStripMenuItem_Click);
             // 
             // aRP免疫工具AToolStripMenuItem
             // 
             this.aRP免疫工具AToolStripMenuItem.Name = "aRP免疫工具AToolStripMenuItem";
-            this.aRP免疫工具AToolStripMenuItem.Size = new System.Drawing.Size(184, 22);
+            this.aRP免疫工具AToolStripMenuItem.Size = new System.Drawing.Size(187, 22);
             this.aRP免疫工具AToolStripMenuItem.Text = "ARP免疫工具(&A)";
             this.aRP免疫工具AToolStripMenuItem.Click += new System.EventHandler(this.aRP免疫工具AToolStripMenuItem_Click);
             // 
             // 更新系统时间TToolStripMenuItem
             // 
             this.更新系统时间TToolStripMenuItem.Name = "更新系统时间TToolStripMenuItem";
-            this.更新系统时间TToolStripMenuItem.Size = new System.Drawing.Size(184, 22);
+            this.更新系统时间TToolStripMenuItem.Size = new System.Drawing.Size(187, 22);
             this.更新系统时间TToolStripMenuItem.Text = "更新系统时间(&T)";
             this.更新系统时间TToolStripMenuItem.Click += new System.EventHandler(this.更新系统时间TToolStripMenuItem_Click);
             // 
             // 服务器疑难杂症FToolStripMenuItem
             // 
             this.服务器疑难杂症FToolStripMenuItem.Name = "服务器疑难杂症FToolStripMenuItem";
-            this.服务器疑难杂症FToolStripMenuItem.Size = new System.Drawing.Size(184, 22);
+            this.服务器疑难杂症FToolStripMenuItem.Size = new System.Drawing.Size(187, 22);
             this.服务器疑难杂症FToolStripMenuItem.Text = "服务器疑难杂症(&F)";
             this.服务器疑难杂症FToolStripMenuItem.Click += new System.EventHandler(this.服务器疑难杂症FToolStripMenuItem_Click);
             // 
             // 木马及代码扫描SToolStripMenuItem
             // 
             this.木马及代码扫描SToolStripMenuItem.Name = "木马及代码扫描SToolStripMenuItem";
-            this.木马及代码扫描SToolStripMenuItem.Size = new System.Drawing.Size(184, 22);
+            this.木马及代码扫描SToolStripMenuItem.Size = new System.Drawing.Size(187, 22);
             this.木马及代码扫描SToolStripMenuItem.Text = "木马及代码扫描(&S)";
             this.木马及代码扫描SToolStripMenuItem.Click += new System.EventHandler(this.木马及代码扫描SToolStripMenuItem_Click);
             // 
             // 可疑图片文件扫描PToolStripMenuItem
             // 
             this.可疑图片文件扫描PToolStripMenuItem.Name = "可疑图片文件扫描PToolStripMenuItem";
-            this.可疑图片文件扫描PToolStripMenuItem.Size = new System.Drawing.Size(184, 22);
+            this.可疑图片文件扫描PToolStripMenuItem.Size = new System.Drawing.Size(187, 22);
             this.可疑图片文件扫描PToolStripMenuItem.Text = "可疑图片文件扫描(&P)";
             this.可疑图片文件扫描PToolStripMenuItem.Click += new System.EventHandler(this.可疑图片文件扫描PToolStripMenuItem_Click);
             // 
@@ -345,38 +344,28 @@
             this.网络数据包监控MToolStripMenuItem,
             this.网络连接查看NToolStripMenuItem});
             this.网络类工具NToolStripMenuItem.Name = "网络类工具NToolStripMenuItem";
-            this.网络类工具NToolStripMenuItem.Size = new System.Drawing.Size(184, 22);
+            this.网络类工具NToolStripMenuItem.Size = new System.Drawing.Size(187, 22);
             this.网络类工具NToolStripMenuItem.Text = "网络类工具(&N)";
             // 
             // 网络数据包监控MToolStripMenuItem
             // 
             this.网络数据包监控MToolStripMenuItem.Name = "网络数据包监控MToolStripMenuItem";
-            this.网络数据包监控MToolStripMenuItem.Size = new System.Drawing.Size(172, 22);
+            this.网络数据包监控MToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.网络数据包监控MToolStripMenuItem.Text = "网络数据包监控(&M)";
             this.网络数据包监控MToolStripMenuItem.Click += new System.EventHandler(this.网络数据包监控MToolStripMenuItem_Click);
             // 
             // 网络连接查看NToolStripMenuItem
             // 
             this.网络连接查看NToolStripMenuItem.Name = "网络连接查看NToolStripMenuItem";
-            this.网络连接查看NToolStripMenuItem.Size = new System.Drawing.Size(172, 22);
+            this.网络连接查看NToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.网络连接查看NToolStripMenuItem.Text = "网络连接查看(&N)";
             this.网络连接查看NToolStripMenuItem.Click += new System.EventHandler(this.网络连接查看NToolStripMenuItem_Click);
             // 
             // 站长实用工具WToolStripMenuItem
             // 
-            this.站长实用工具WToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.dNSPodClientDToolStripMenuItem});
             this.站长实用工具WToolStripMenuItem.Name = "站长实用工具WToolStripMenuItem";
-            this.站长实用工具WToolStripMenuItem.Size = new System.Drawing.Size(184, 22);
+            this.站长实用工具WToolStripMenuItem.Size = new System.Drawing.Size(187, 22);
             this.站长实用工具WToolStripMenuItem.Text = "站长实用工具(&W)";
-            // 
-            // dNSPodClientDToolStripMenuItem
-            // 
-            this.dNSPodClientDToolStripMenuItem.Enabled = false;
-            this.dNSPodClientDToolStripMenuItem.Name = "dNSPodClientDToolStripMenuItem";
-            this.dNSPodClientDToolStripMenuItem.Size = new System.Drawing.Size(166, 22);
-            this.dNSPodClientDToolStripMenuItem.Text = "DNSPod Client(&D)";
-            this.dNSPodClientDToolStripMenuItem.Click += new System.EventHandler(this.dNSPodClientDToolStripMenuItem_Click);
             // 
             // 设置SToolStripMenuItem
             // 
@@ -386,34 +375,34 @@
             this.windows防火墙设置FToolStripMenuItem,
             this.其他安全设置OToolStripMenuItem});
             this.设置SToolStripMenuItem.Name = "设置SToolStripMenuItem";
-            this.设置SToolStripMenuItem.Size = new System.Drawing.Size(59, 20);
+            this.设置SToolStripMenuItem.Size = new System.Drawing.Size(59, 21);
             this.设置SToolStripMenuItem.Text = "设置(&S)";
             // 
             // 系统文件安全向导FToolStripMenuItem
             // 
             this.系统文件安全向导FToolStripMenuItem.Name = "系统文件安全向导FToolStripMenuItem";
-            this.系统文件安全向导FToolStripMenuItem.Size = new System.Drawing.Size(190, 22);
+            this.系统文件安全向导FToolStripMenuItem.Size = new System.Drawing.Size(203, 22);
             this.系统文件安全向导FToolStripMenuItem.Text = "系统文件安全向导(&F)";
             this.系统文件安全向导FToolStripMenuItem.Click += new System.EventHandler(this.系统文件安全向导FToolStripMenuItem_Click);
             // 
             // 文件详细安全向导SToolStripMenuItem
             // 
             this.文件详细安全向导SToolStripMenuItem.Name = "文件详细安全向导SToolStripMenuItem";
-            this.文件详细安全向导SToolStripMenuItem.Size = new System.Drawing.Size(190, 22);
+            this.文件详细安全向导SToolStripMenuItem.Size = new System.Drawing.Size(203, 22);
             this.文件详细安全向导SToolStripMenuItem.Text = "文件详细安全向导(&S)";
             this.文件详细安全向导SToolStripMenuItem.Click += new System.EventHandler(this.文件详细安全向导SToolStripMenuItem_Click);
             // 
             // windows防火墙设置FToolStripMenuItem
             // 
             this.windows防火墙设置FToolStripMenuItem.Name = "windows防火墙设置FToolStripMenuItem";
-            this.windows防火墙设置FToolStripMenuItem.Size = new System.Drawing.Size(190, 22);
+            this.windows防火墙设置FToolStripMenuItem.Size = new System.Drawing.Size(203, 22);
             this.windows防火墙设置FToolStripMenuItem.Text = "Windows防火墙设置(&F)";
             this.windows防火墙设置FToolStripMenuItem.Click += new System.EventHandler(this.Windows防火墙设置FToolStripMenuItem_Click);
             // 
             // 其他安全设置OToolStripMenuItem
             // 
             this.其他安全设置OToolStripMenuItem.Name = "其他安全设置OToolStripMenuItem";
-            this.其他安全设置OToolStripMenuItem.Size = new System.Drawing.Size(190, 22);
+            this.其他安全设置OToolStripMenuItem.Size = new System.Drawing.Size(203, 22);
             this.其他安全设置OToolStripMenuItem.Text = "其他安全设置(&O)";
             this.其他安全设置OToolStripMenuItem.Click += new System.EventHandler(this.其他安全设置OToolStripMenuItem_Click);
             // 
@@ -427,7 +416,7 @@
             this.iIS管理IToolStripMenuItem,
             this.数据库DToolStripMenuItem});
             this.服务器SToolStripMenuItem.Name = "服务器SToolStripMenuItem";
-            this.服务器SToolStripMenuItem.Size = new System.Drawing.Size(71, 20);
+            this.服务器SToolStripMenuItem.Size = new System.Drawing.Size(71, 21);
             this.服务器SToolStripMenuItem.Text = "服务器(&S)";
             // 
             // 组件CToolStripMenuItem
@@ -436,20 +425,20 @@
             this.高危组件HToolStripMenuItem,
             this.组件下载器CToolStripMenuItem});
             this.组件CToolStripMenuItem.Name = "组件CToolStripMenuItem";
-            this.组件CToolStripMenuItem.Size = new System.Drawing.Size(172, 22);
+            this.组件CToolStripMenuItem.Size = new System.Drawing.Size(175, 22);
             this.组件CToolStripMenuItem.Text = "组件(&C)";
             // 
             // 高危组件HToolStripMenuItem
             // 
             this.高危组件HToolStripMenuItem.Name = "高危组件HToolStripMenuItem";
-            this.高危组件HToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
+            this.高危组件HToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.高危组件HToolStripMenuItem.Text = "高危组件(&H)";
             this.高危组件HToolStripMenuItem.Click += new System.EventHandler(this.高危组件HToolStripMenuItem_Click);
             // 
             // 组件下载器CToolStripMenuItem
             // 
             this.组件下载器CToolStripMenuItem.Name = "组件下载器CToolStripMenuItem";
-            this.组件下载器CToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
+            this.组件下载器CToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.组件下载器CToolStripMenuItem.Text = "组件下载器(&C)";
             this.组件下载器CToolStripMenuItem.Click += new System.EventHandler(this.组件下载器CToolStripMenuItem_Click);
             // 
@@ -458,13 +447,13 @@
             this.扩展EToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.一键安装PHPToolStripMenuItem});
             this.扩展EToolStripMenuItem.Name = "扩展EToolStripMenuItem";
-            this.扩展EToolStripMenuItem.Size = new System.Drawing.Size(172, 22);
+            this.扩展EToolStripMenuItem.Size = new System.Drawing.Size(175, 22);
             this.扩展EToolStripMenuItem.Text = "扩展(&E)";
             // 
             // 一键安装PHPToolStripMenuItem
             // 
             this.一键安装PHPToolStripMenuItem.Name = "一键安装PHPToolStripMenuItem";
-            this.一键安装PHPToolStripMenuItem.Size = new System.Drawing.Size(184, 22);
+            this.一键安装PHPToolStripMenuItem.Size = new System.Drawing.Size(189, 22);
             this.一键安装PHPToolStripMenuItem.Text = "一键安装PHP5.2.9(&P)";
             this.一键安装PHPToolStripMenuItem.Click += new System.EventHandler(this.一键安装PHPToolStripMenuItem_Click);
             // 
@@ -474,20 +463,20 @@
             this.配置服务SToolStripMenuItem,
             this.查看日志LToolStripMenuItem});
             this.银月服务SToolStripMenuItem.Name = "银月服务SToolStripMenuItem";
-            this.银月服务SToolStripMenuItem.Size = new System.Drawing.Size(172, 22);
+            this.银月服务SToolStripMenuItem.Size = new System.Drawing.Size(175, 22);
             this.银月服务SToolStripMenuItem.Text = "银月服务器服务(S)";
             // 
             // 配置服务SToolStripMenuItem
             // 
             this.配置服务SToolStripMenuItem.Name = "配置服务SToolStripMenuItem";
-            this.配置服务SToolStripMenuItem.Size = new System.Drawing.Size(136, 22);
+            this.配置服务SToolStripMenuItem.Size = new System.Drawing.Size(139, 22);
             this.配置服务SToolStripMenuItem.Text = "配置服务(&S)";
             this.配置服务SToolStripMenuItem.Click += new System.EventHandler(this.安装服务IToolStripMenuItem_Click);
             // 
             // 查看日志LToolStripMenuItem
             // 
             this.查看日志LToolStripMenuItem.Name = "查看日志LToolStripMenuItem";
-            this.查看日志LToolStripMenuItem.Size = new System.Drawing.Size(136, 22);
+            this.查看日志LToolStripMenuItem.Size = new System.Drawing.Size(139, 22);
             this.查看日志LToolStripMenuItem.Text = "查看日志(&L)";
             this.查看日志LToolStripMenuItem.Click += new System.EventHandler(this.查看日志LToolStripMenuItem_Click);
             // 
@@ -496,13 +485,13 @@
             this.清理CToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.清理LogFilesLToolStripMenuItem});
             this.清理CToolStripMenuItem.Name = "清理CToolStripMenuItem";
-            this.清理CToolStripMenuItem.Size = new System.Drawing.Size(172, 22);
+            this.清理CToolStripMenuItem.Size = new System.Drawing.Size(175, 22);
             this.清理CToolStripMenuItem.Text = "清理(&C)";
             // 
             // 清理LogFilesLToolStripMenuItem
             // 
             this.清理LogFilesLToolStripMenuItem.Name = "清理LogFilesLToolStripMenuItem";
-            this.清理LogFilesLToolStripMenuItem.Size = new System.Drawing.Size(160, 22);
+            this.清理LogFilesLToolStripMenuItem.Size = new System.Drawing.Size(161, 22);
             this.清理LogFilesLToolStripMenuItem.Text = "清理LogFiles(&L)";
             this.清理LogFilesLToolStripMenuItem.Click += new System.EventHandler(this.清理LogFilesLToolStripMenuItem_Click);
             // 
@@ -516,48 +505,48 @@
             this.iIS应用池管理AToolStripMenuItem,
             this.iIS日志分析器LToolStripMenuItem});
             this.iIS管理IToolStripMenuItem.Name = "iIS管理IToolStripMenuItem";
-            this.iIS管理IToolStripMenuItem.Size = new System.Drawing.Size(172, 22);
+            this.iIS管理IToolStripMenuItem.Size = new System.Drawing.Size(175, 22);
             this.iIS管理IToolStripMenuItem.Text = "IIS管理(&I)";
             // 
             // 银月IIS管理器MToolStripMenuItem
             // 
             this.银月IIS管理器MToolStripMenuItem.Name = "银月IIS管理器MToolStripMenuItem";
-            this.银月IIS管理器MToolStripMenuItem.Size = new System.Drawing.Size(166, 22);
+            this.银月IIS管理器MToolStripMenuItem.Size = new System.Drawing.Size(171, 22);
             this.银月IIS管理器MToolStripMenuItem.Text = "银月IIS管理器(&M)";
             this.银月IIS管理器MToolStripMenuItem.Click += new System.EventHandler(this.银月IIS管理器MToolStripMenuItem_Click);
             // 
             // iIS备份与恢复BToolStripMenuItem
             // 
             this.iIS备份与恢复BToolStripMenuItem.Name = "iIS备份与恢复BToolStripMenuItem";
-            this.iIS备份与恢复BToolStripMenuItem.Size = new System.Drawing.Size(166, 22);
+            this.iIS备份与恢复BToolStripMenuItem.Size = new System.Drawing.Size(171, 22);
             this.iIS备份与恢复BToolStripMenuItem.Text = "IIS备份与恢复(&B)";
             this.iIS备份与恢复BToolStripMenuItem.Click += new System.EventHandler(this.iIS备份与恢复BToolStripMenuItem_Click);
             // 
             // iIS性能监控PToolStripMenuItem
             // 
             this.iIS性能监控PToolStripMenuItem.Name = "iIS性能监控PToolStripMenuItem";
-            this.iIS性能监控PToolStripMenuItem.Size = new System.Drawing.Size(166, 22);
+            this.iIS性能监控PToolStripMenuItem.Size = new System.Drawing.Size(171, 22);
             this.iIS性能监控PToolStripMenuItem.Text = "IIS性能监控(&P)";
             this.iIS性能监控PToolStripMenuItem.Click += new System.EventHandler(this.iIS性能监控PToolStripMenuItem_Click);
             // 
             // nET版本控制VToolStripMenuItem
             // 
             this.nET版本控制VToolStripMenuItem.Name = "nET版本控制VToolStripMenuItem";
-            this.nET版本控制VToolStripMenuItem.Size = new System.Drawing.Size(166, 22);
+            this.nET版本控制VToolStripMenuItem.Size = new System.Drawing.Size(171, 22);
             this.nET版本控制VToolStripMenuItem.Text = ".NET版本控制(&V)";
             this.nET版本控制VToolStripMenuItem.Click += new System.EventHandler(this.nET版本控制VToolStripMenuItem_Click);
             // 
             // iIS应用池管理AToolStripMenuItem
             // 
             this.iIS应用池管理AToolStripMenuItem.Name = "iIS应用池管理AToolStripMenuItem";
-            this.iIS应用池管理AToolStripMenuItem.Size = new System.Drawing.Size(166, 22);
+            this.iIS应用池管理AToolStripMenuItem.Size = new System.Drawing.Size(171, 22);
             this.iIS应用池管理AToolStripMenuItem.Text = "IIS应用池管理(&A)";
             this.iIS应用池管理AToolStripMenuItem.Click += new System.EventHandler(this.iIS应用池管理AToolStripMenuItem_Click);
             // 
             // iIS日志分析器LToolStripMenuItem
             // 
             this.iIS日志分析器LToolStripMenuItem.Name = "iIS日志分析器LToolStripMenuItem";
-            this.iIS日志分析器LToolStripMenuItem.Size = new System.Drawing.Size(166, 22);
+            this.iIS日志分析器LToolStripMenuItem.Size = new System.Drawing.Size(171, 22);
             this.iIS日志分析器LToolStripMenuItem.Text = "IIS日志分析器(&L)";
             this.iIS日志分析器LToolStripMenuItem.Click += new System.EventHandler(this.iIS日志分析器LToolStripMenuItem_Click);
             // 
@@ -567,20 +556,20 @@
             this.mSSQL管理SToolStripMenuItem,
             this.mySQL管理YToolStripMenuItem});
             this.数据库DToolStripMenuItem.Name = "数据库DToolStripMenuItem";
-            this.数据库DToolStripMenuItem.Size = new System.Drawing.Size(172, 22);
+            this.数据库DToolStripMenuItem.Size = new System.Drawing.Size(175, 22);
             this.数据库DToolStripMenuItem.Text = "数据库(&D)";
             // 
             // mSSQL管理SToolStripMenuItem
             // 
             this.mSSQL管理SToolStripMenuItem.Name = "mSSQL管理SToolStripMenuItem";
-            this.mSSQL管理SToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
+            this.mSSQL管理SToolStripMenuItem.Size = new System.Drawing.Size(157, 22);
             this.mSSQL管理SToolStripMenuItem.Text = "MSSQL管理(&S)";
             this.mSSQL管理SToolStripMenuItem.Click += new System.EventHandler(this.mSSQL管理SToolStripMenuItem_Click);
             // 
             // mySQL管理YToolStripMenuItem
             // 
             this.mySQL管理YToolStripMenuItem.Name = "mySQL管理YToolStripMenuItem";
-            this.mySQL管理YToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
+            this.mySQL管理YToolStripMenuItem.Size = new System.Drawing.Size(157, 22);
             this.mySQL管理YToolStripMenuItem.Text = "MySQL管理(&Y)";
             this.mySQL管理YToolStripMenuItem.Click += new System.EventHandler(this.mySQL管理YToolStripMenuItem_Click);
             // 
@@ -591,27 +580,27 @@
             this.退出程序XToolStripMenuItem,
             this.重启程序RToolStripMenuItem});
             this.程序PToolStripMenuItem.Name = "程序PToolStripMenuItem";
-            this.程序PToolStripMenuItem.Size = new System.Drawing.Size(59, 20);
+            this.程序PToolStripMenuItem.Size = new System.Drawing.Size(59, 21);
             this.程序PToolStripMenuItem.Text = "程序(&P)";
             // 
             // 设置程序SToolStripMenuItem
             // 
             this.设置程序SToolStripMenuItem.Name = "设置程序SToolStripMenuItem";
-            this.设置程序SToolStripMenuItem.Size = new System.Drawing.Size(136, 22);
+            this.设置程序SToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.设置程序SToolStripMenuItem.Text = "设置程序(&S)";
             this.设置程序SToolStripMenuItem.Click += new System.EventHandler(this.设置程序SToolStripMenuItem_Click);
             // 
             // 退出程序XToolStripMenuItem
             // 
             this.退出程序XToolStripMenuItem.Name = "退出程序XToolStripMenuItem";
-            this.退出程序XToolStripMenuItem.Size = new System.Drawing.Size(136, 22);
+            this.退出程序XToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.退出程序XToolStripMenuItem.Text = "退出程序(&X)";
             this.退出程序XToolStripMenuItem.Click += new System.EventHandler(this.退出XToolStripMenuItem_Click);
             // 
             // 重启程序RToolStripMenuItem
             // 
             this.重启程序RToolStripMenuItem.Name = "重启程序RToolStripMenuItem";
-            this.重启程序RToolStripMenuItem.Size = new System.Drawing.Size(136, 22);
+            this.重启程序RToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.重启程序RToolStripMenuItem.Text = "重启程序(&R)";
             this.重启程序RToolStripMenuItem.Click += new System.EventHandler(this.重启程序RToolStripMenuItem_Click);
             // 
@@ -625,48 +614,48 @@
             this.程序主页HToolStripMenuItem,
             this.赞助链接ZToolStripMenuItem});
             this.帮助HToolStripMenuItem.Name = "帮助HToolStripMenuItem";
-            this.帮助HToolStripMenuItem.Size = new System.Drawing.Size(59, 20);
+            this.帮助HToolStripMenuItem.Size = new System.Drawing.Size(61, 21);
             this.帮助HToolStripMenuItem.Text = "帮助(&H)";
             // 
             // 执行垃圾回收RToolStripMenuItem
             // 
             this.执行垃圾回收RToolStripMenuItem.Name = "执行垃圾回收RToolStripMenuItem";
-            this.执行垃圾回收RToolStripMenuItem.Size = new System.Drawing.Size(160, 22);
+            this.执行垃圾回收RToolStripMenuItem.Size = new System.Drawing.Size(164, 22);
             this.执行垃圾回收RToolStripMenuItem.Text = "执行垃圾回收(&R)";
             this.执行垃圾回收RToolStripMenuItem.Click += new System.EventHandler(this.执行垃圾回收RToolStripMenuItem_Click);
             // 
             // 检查升级UToolStripMenuItem
             // 
             this.检查升级UToolStripMenuItem.Name = "检查升级UToolStripMenuItem";
-            this.检查升级UToolStripMenuItem.Size = new System.Drawing.Size(160, 22);
+            this.检查升级UToolStripMenuItem.Size = new System.Drawing.Size(164, 22);
             this.检查升级UToolStripMenuItem.Text = "检查升级(&U)";
             this.检查升级UToolStripMenuItem.Click += new System.EventHandler(this.检查升级UToolStripMenuItem_Click);
             // 
             // 使用手册GToolStripMenuItem
             // 
             this.使用手册GToolStripMenuItem.Name = "使用手册GToolStripMenuItem";
-            this.使用手册GToolStripMenuItem.Size = new System.Drawing.Size(160, 22);
+            this.使用手册GToolStripMenuItem.Size = new System.Drawing.Size(164, 22);
             this.使用手册GToolStripMenuItem.Text = "使用手册(&G)";
             this.使用手册GToolStripMenuItem.Click += new System.EventHandler(this.使用手册GToolStripMenuItem_Click);
             // 
             // 关于本程序AToolStripMenuItem
             // 
             this.关于本程序AToolStripMenuItem.Name = "关于本程序AToolStripMenuItem";
-            this.关于本程序AToolStripMenuItem.Size = new System.Drawing.Size(160, 22);
+            this.关于本程序AToolStripMenuItem.Size = new System.Drawing.Size(164, 22);
             this.关于本程序AToolStripMenuItem.Text = "关于本程序(&A)";
             this.关于本程序AToolStripMenuItem.Click += new System.EventHandler(this.关于本程序AToolStripMenuItem_Click);
             // 
             // 程序主页HToolStripMenuItem
             // 
             this.程序主页HToolStripMenuItem.Name = "程序主页HToolStripMenuItem";
-            this.程序主页HToolStripMenuItem.Size = new System.Drawing.Size(160, 22);
+            this.程序主页HToolStripMenuItem.Size = new System.Drawing.Size(164, 22);
             this.程序主页HToolStripMenuItem.Text = "程序主页(&H)";
             this.程序主页HToolStripMenuItem.Click += new System.EventHandler(this.程序主页HToolStripMenuItem_Click);
             // 
             // 赞助链接ZToolStripMenuItem
             // 
             this.赞助链接ZToolStripMenuItem.Name = "赞助链接ZToolStripMenuItem";
-            this.赞助链接ZToolStripMenuItem.Size = new System.Drawing.Size(160, 22);
+            this.赞助链接ZToolStripMenuItem.Size = new System.Drawing.Size(164, 22);
             this.赞助链接ZToolStripMenuItem.Text = "赞助链接(&Z)";
             this.赞助链接ZToolStripMenuItem.Click += new System.EventHandler(this.赞助链接ZToolStripMenuItem_Click);
             // 
@@ -704,7 +693,7 @@
             // StatusLabel
             // 
             this.StatusLabel.Name = "StatusLabel";
-            this.StatusLabel.Size = new System.Drawing.Size(23, 17);
+            this.StatusLabel.Size = new System.Drawing.Size(17, 17);
             this.StatusLabel.Text = "...";
             // 
             // tabPage1
@@ -714,10 +703,10 @@
             this.tabPage1.Controls.Add(this.groupBox2);
             this.tabPage1.Controls.Add(this.groupBox3);
             this.tabPage1.Cursor = System.Windows.Forms.Cursors.Default;
-            this.tabPage1.Location = new System.Drawing.Point(4, 21);
+            this.tabPage1.Location = new System.Drawing.Point(4, 22);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(610, 310);
+            this.tabPage1.Size = new System.Drawing.Size(610, 308);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "界面";
             this.tabPage1.UseVisualStyleBackColor = true;
@@ -866,20 +855,20 @@
             this.tabControl1.Controls.Add(this.tabPage2);
             this.tabControl1.Controls.Add(this.tabPage3);
             this.tabControl1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tabControl1.Location = new System.Drawing.Point(0, 24);
+            this.tabControl1.Location = new System.Drawing.Point(0, 25);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(618, 335);
+            this.tabControl1.Size = new System.Drawing.Size(618, 334);
             this.tabControl1.TabIndex = 0;
             this.tabControl1.SelectedIndexChanged += new System.EventHandler(this.tabControl1_SelectedIndexChanged);
             // 
             // tabPage2
             // 
             this.tabPage2.Controls.Add(this.generalPageControl1);
-            this.tabPage2.Location = new System.Drawing.Point(4, 21);
+            this.tabPage2.Location = new System.Drawing.Point(4, 22);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(610, 310);
+            this.tabPage2.Size = new System.Drawing.Size(610, 309);
             this.tabPage2.TabIndex = 9;
             this.tabPage2.Text = "常用";
             this.tabPage2.UseVisualStyleBackColor = true;
@@ -894,10 +883,10 @@
             // tabPage3
             // 
             this.tabPage3.Controls.Add(this.testControl1);
-            this.tabPage3.Location = new System.Drawing.Point(4, 21);
+            this.tabPage3.Location = new System.Drawing.Point(4, 22);
             this.tabPage3.Name = "tabPage3";
             this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage3.Size = new System.Drawing.Size(610, 310);
+            this.tabPage3.Size = new System.Drawing.Size(610, 309);
             this.tabPage3.TabIndex = 10;
             this.tabPage3.Text = "测试";
             this.tabPage3.UseVisualStyleBackColor = true;
@@ -969,9 +958,9 @@
             this.Name = "MainForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "银月服务器工具";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.MainForm_FormClosing);
             this.Load += new System.EventHandler(this.MainForm_Load);
             this.Shown += new System.EventHandler(this.MainForm_Shown);
-            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.MainForm_FormClosing);
             this.TopMenu.ResumeLayout(false);
             this.TopMenu.PerformLayout();
             this.MainTrayMenu.ResumeLayout(false);
@@ -1088,7 +1077,6 @@
         private System.Windows.Forms.ToolStripMenuItem 网络连接查看NToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem 站长实用工具WToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem iIS备份与恢复BToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem dNSPodClientDToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem iIS应用池管理AToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem iIS日志分析器LToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem 可疑图片文件扫描PToolStripMenuItem;

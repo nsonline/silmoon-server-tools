@@ -75,7 +75,7 @@ namespace SST.Ext.Tools
                         ArrayList codeArr = new ArrayList();
                         foreach (string s in codeFile)
                         {
-                            codeArr.Add(EncryptString.DiscryptSilmoonBinry(s));
+                            codeArr.Add(EncryptString.DiscryptSilmoonBinary(s));
                         }
                         code = (string[])codeArr.ToArray(typeof(string));
 
@@ -314,7 +314,7 @@ namespace SST.Ext.Tools
             foreach (ListViewItem items in ctl2CodeBoxListView.Items)
             {
                 string uncryLine = items.SubItems[1].Text + "|" + items.Text;
-                _array.Add(EncryptString.EncryptSilmoonBinry(uncryLine));
+                _array.Add(EncryptString.EncryptSilmoonBinary(uncryLine));
             }
             File.WriteAllLines(ctl2FilePathLabel.Text, ((string[])_array.ToArray(typeof(string))));
             MessageBox.Show("银月代码库文件成功保存！", "_s", MessageBoxButtons.OK, MessageBoxIcon.Information);
@@ -328,7 +328,7 @@ namespace SST.Ext.Tools
                 ctl2CodeBoxListView.Items.Clear();
                 foreach (string line in fileLine)
                 {
-                    string sline = EncryptString.DiscryptSilmoonBinry(line);
+                    string sline = EncryptString.DiscryptSilmoonBinary(line);
                     string[] lineArr = sline.Split(new string[] { "|" }, StringSplitOptions.RemoveEmptyEntries);
                     ctl2CodeBoxListView.Items.Add(new ListViewItem(new string[] { lineArr[1], lineArr[0] }));
                 }

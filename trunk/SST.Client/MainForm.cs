@@ -262,10 +262,6 @@ namespace SST.Client
         {
             new SST.Utility.Net.NetworkMonitorForm(_g);
         }
-        private void dNSPodClientDToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            //new DNSPodClient.Login().Show();
-        }
 
         private void 系统文件安全向导FToolStripMenuItem_Click(object sender, EventArgs e)
         {

@@ -33,7 +33,13 @@ namespace SST.UpdateModule
         private void Form1_Shown(object sender, EventArgs e)
         {
             _rconfigURL = iniFile.ReadInivalue("Config", "RemoteConfigURL");
-
+            if (string.IsNullOrEmpty(_rconfigURL))
+            {
+                _rconfigURL = "http://client.silmoon.com/SilmoonServertools/Config.txt";
+                //MessageBox.Show("丢失远程更新的配置，就是Config.ini文件中的某些参数，请下载最新版本的程序。", "错误", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                //Close();
+                //return;
+            }
             WebClient _webClient = new WebClient();
             _webClient.DownloadFileCompleted += new AsyncCompletedEventHandler(_webClient_DownloadFileCompleted);
             _webClient.DownloadFileAsync(new Uri(_rconfigURL), Application.StartupPath + "//_updateInfo.ini");

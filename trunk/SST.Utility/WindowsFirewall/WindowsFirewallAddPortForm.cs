@@ -80,7 +80,7 @@ namespace SST.Utility.WindowsFirewall
         {
             try
             {
-                int i = SmInt.ControlIntValue(int.Parse(zsubnetmask.Text), 8, 32, true);
+                int i = SmInt.CheckIntValue(int.Parse(zsubnetmask.Text), 8, 32, true);
                 label1.Text = IPAddress.Parse(zsubnettb.Text).ToString() + "/" + Silmoon.Net.NetworkAddressFormat.GetIPv4SubNetAddress(int.Parse(zsubnetmask.Text)).ToString();
             }
             catch (Exception ex) { _g.PopErrorMessage(ex.Message); }

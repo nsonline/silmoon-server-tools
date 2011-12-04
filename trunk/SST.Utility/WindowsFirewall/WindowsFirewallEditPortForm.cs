@@ -89,7 +89,7 @@ namespace SST.Utility.WindowsFirewall
 
                 if (cenable.Checked) enable = "Enabled"; else enable = "Disabled";
 
-                string regData = SmInt.ControlIntValue(int.Parse(cport.Text), 0, 65535, true).ToString() + ":" + cprotocol.Text + ":" + iplist + ":" + enable + ":" + ctitle.Text;
+                string regData = SmInt.CheckIntValue(int.Parse(cport.Text), 0, 65535, true).ToString() + ":" + cprotocol.Text + ":" + iplist + ":" + enable + ":" + ctitle.Text;
 
 
                 RegistryKey k = Registry.LocalMachine.OpenSubKey(@"SYSTEM\CurrentControlSet\Services\SharedAccess\Parameters\FirewallPolicy\StandardProfile\GloballyOpenPorts\List", true);
