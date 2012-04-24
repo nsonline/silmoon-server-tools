@@ -116,9 +116,22 @@ namespace SST.UpdateModule
                 if (File.Exists(Application.StartupPath + "\\SST.Network.dll")) File.Delete(Application.StartupPath + "\\SST.Network.dll");
                 if (File.Exists(Application.StartupPath + "\\SST.Network.Resource.dll")) File.Delete(Application.StartupPath + "\\SST.Network.Resource.dll");
                 if (File.Exists(Application.StartupPath + "\\SST.Ext.IIS.dll")) File.Delete(Application.StartupPath + "\\SST.Ext.IIS.dll");
+                if (File.Exists(Application.StartupPath + "\\Silmoon.Utility.dll")) File.Delete(Application.StartupPath + "\\Silmoon.Utility.dll");
+                if (File.Exists(Application.StartupPath + "\\Silmoon.Update.App.txt")) File.Move(Application.StartupPath + "\\Silmoon.Update.App.txt", Application.StartupPath + "\\Silmoon.Update.App.ini");
                 Directory.Delete(Application.StartupPath + "\\tmp\\", true);
                 Control.CheckForIllegalCrossThreadCalls = false;
                 label2.Text = "完成更新任务！";
+                try
+                {
+                    Invoke(new EventHandler(delegate(object o, EventArgs ea)
+                    {
+                        Process.Start("Silmoon.Update.App.exe");
+                        MessageBox.Show("请自行删除SST.UpdateModule.exe！！！");
+                        Close();
+                        return;
+                    }), null);
+                }
+                catch { }
                 button1.Visible = true;
             }
             catch (Exception e) { MessageBox.Show(e.ToString()); }

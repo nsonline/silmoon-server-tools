@@ -59,20 +59,21 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\SilmoonClassLib\Silmoon.Data\bin\Debug\MySql.Data.dll</HintPath>
     </Reference>
-    <Reference Include="Silmoon, Version=1.0.1.5, Culture=neutral, processorArchitecture=MSIL">
+    <Reference Include="Silmoon, Version=0.0.0.70, Culture=neutral, PublicKeyToken=5077a436830b90d8, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\SilmoonClassLib\SilmoonClassLib\bin\Debug\Silmoon.dll</HintPath>
+      <HintPath>..\..\silmoon-dotnet-library\SilmoonClassLib\bin\Debug\Silmoon.dll</HintPath>
     </Reference>
-    <Reference Include="Silmoon.Data">
-      <HintPath>..\..\SilmoonClassLib\Silmoon.Data\bin\Debug\Silmoon.Data.dll</HintPath>
-    </Reference>
-    <Reference Include="Silmoon.Windows, Version=1.0.0.0, Culture=neutral, PublicKeyToken=bc6a88a9d02cffba, processorArchitecture=MSIL">
+    <Reference Include="Silmoon.Data, Version=0.0.0.2, Culture=neutral, PublicKeyToken=5077a436830b90d8, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\SilmoonClassLib\Silmoon.Windows\bin\Debug\Silmoon.Windows.dll</HintPath>
+      <HintPath>..\..\silmoon-dotnet-library\Silmoon.Data\bin\Debug\Silmoon.Data.dll</HintPath>
     </Reference>
-    <Reference Include="Silmoon.Windows.Server, Version=0.0.0.12, Culture=neutral, PublicKeyToken=bceb4910354b604d, processorArchitecture=MSIL">
+    <Reference Include="Silmoon.Windows, Version=0.0.0.26, Culture=neutral, PublicKeyToken=5077a436830b90d8, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\SilmoonClassLib\Silmoon.Windows.Server\bin\Debug\Silmoon.Windows.Server.dll</HintPath>
+      <HintPath>..\..\silmoon-dotnet-library\Silmoon.Windows\bin\Debug\Silmoon.Windows.dll</HintPath>
+    </Reference>
+    <Reference Include="Silmoon.Windows.Server, Version=0.0.0.15, Culture=neutral, PublicKeyToken=5077a436830b90d8, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\silmoon-dotnet-library\Silmoon.Windows.Server\bin\Debug\Silmoon.Windows.Server.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />

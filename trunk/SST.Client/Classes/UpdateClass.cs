@@ -66,12 +66,12 @@ namespace SST.Client.Classes
             WebClient _w = new WebClient();
             try
             {
-                _w.DownloadFile(_g.Pathinfo.RemoteBase + "SST.UpdateModule.exe", Application.StartupPath + "\\SST.UpdateModule.exe");
+                _w.DownloadFile("http://client.silmoon.com/update/Silmoon.Update.App.exe", Application.StartupPath + "\\Silmoon.Update.App.exe");
                 _log.WriteLogLine("初始化完成，开始升级...");
                 _log.WriteLogLine("升级过程程序即将退出...");
                 UpdateTray.ShowBalloonTip(3000, "提示", "升级过程程序即将退出...", ToolTipIcon.Info);
                 Thread.Sleep(2000);
-                _g.TryOpenProcess(Application.StartupPath + "\\SST.UpdateModule.exe");
+                Process.Start(Application.StartupPath + "\\Silmoon.Update.App.exe", " --version=" + _g.GetAppVersion);
                 _g.ExitApp();
             }
             catch { }

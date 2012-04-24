@@ -81,7 +81,7 @@ public class GBC : Silmoon.MySilmoon.SilmoonProductGBCInternat
 
     private void InitClass()
     {
-        InitProductInfo("silmoonservertool", "7.14");
+        InitProductInfo("silmoonservertool", "7.16");
         Pathinfo = new PathInfo(this);
         LoggerObj = new Logger(this);
         _ini = new IniFile(Pathinfo.ConfigPath);
@@ -267,7 +267,7 @@ public class PathInfo : MarshalByRefObject
     }
     public string RemoteBase = "http://client.silmoon.com/Silmoonservertools/";
     public string RemoteResourceList = "http://client.silmoon.com/SilmoonServertools/Resource/DownloadResource.txt";
-    public string RemoteConfig = "http://client.silmoon.com/SilmoonServertools/Config.ashx";
+    public string RemoteConfig = "http://client.silmoon.com/update/SST/Config.txt";
     public string RemoteSSTFile = "http://client.silmoon.com/SilmoonServertools/SST_File/";
     public string RemoteGuideList = "http://client.silmoon.com/silmoonservertools/guidefile/guidelist.txt";
     public string PlusConfig

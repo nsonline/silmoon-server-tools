@@ -54,9 +54,9 @@
     <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Silmoon, Version=1.0.1.8, Culture=neutral, PublicKeyToken=f5c49ed3de944cda, processorArchitecture=MSIL">
+    <Reference Include="Silmoon, Version=0.0.0.70, Culture=neutral, PublicKeyToken=5077a436830b90d8, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\SilmoonClassLib\SilmoonClassLib\bin\Debug\Silmoon.dll</HintPath>
+      <HintPath>..\..\silmoon-dotnet-library\SilmoonClassLib\bin\Debug\Silmoon.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
