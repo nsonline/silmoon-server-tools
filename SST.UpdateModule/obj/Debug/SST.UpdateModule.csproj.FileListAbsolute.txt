@@ -47,3 +47,14 @@ N:\svn\silmoon-server-tools\SST.UpdateModule\obj\Debug\GenerateResource-ResGen.w
 N:\svn\silmoon-server-tools\SST.UpdateModule\obj\Debug\ResGen.write.1.tlog
 N:\svn\silmoon-server-tools\SST.UpdateModule\obj\Debug\SST.UpdateModule.exe
 N:\svn\silmoon-server-tools\SST.UpdateModule\obj\Debug\SST.UpdateModule.pdb
+I:\svn\silmoon-server-tools\SST.UpdateModule\obj\Debug\ResolveAssemblyReference.cache
+I:\svn\silmoon-server-tools\SST.UpdateModule\obj\Debug\SST.UpdateModule.Form1.resources
+I:\svn\silmoon-server-tools\SST.UpdateModule\obj\Debug\SST.UpdateModule.Properties.Resources.resources
+I:\svn\silmoon-server-tools\SST.UpdateModule\obj\Debug\GenerateResource-ResGen.read.1.tlog
+I:\svn\silmoon-server-tools\SST.UpdateModule\obj\Debug\ResGen.read.1.tlog
+I:\svn\silmoon-server-tools\SST.UpdateModule\obj\Debug\GenerateResource-ResGen.write.1.tlog
+I:\svn\silmoon-server-tools\SST.UpdateModule\obj\Debug\ResGen.write.1.tlog
+I:\svn\silmoon-server-tools\SST.UpdateModule\obj\Debug\SST.UpdateModule.exe
+I:\svn\silmoon-server-tools\SST.UpdateModule\obj\Debug\SST.UpdateModule.pdb
+I:\svn\silmoon-server-tools\SST.UpdateModule\bin\Debug\SST.UpdateModule.exe
+I:\svn\silmoon-server-tools\SST.UpdateModule\bin\Debug\SST.UpdateModule.pdb

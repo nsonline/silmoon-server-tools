@@ -47,3 +47,16 @@ N:\svn\silmoon-server-tools\SST.Common\bin\Debug\Silmoon.Windows.xml
 N:\svn\silmoon-server-tools\SST.Common\obj\Debug\ResolveAssemblyReference.cache
 N:\svn\silmoon-server-tools\SST.Common\obj\Debug\SST.Common.dll
 N:\svn\silmoon-server-tools\SST.Common\obj\Debug\SST.Common.pdb
+I:\svn\silmoon-server-tools\SST.Common\obj\Debug\ResolveAssemblyReference.cache
+I:\svn\silmoon-server-tools\SST.Common\obj\Debug\SST.Common.dll
+I:\svn\silmoon-server-tools\SST.Common\obj\Debug\SST.Common.pdb
+I:\svn\silmoon-server-tools\SST.Common\bin\Debug\SST.Common.dll
+I:\svn\silmoon-server-tools\SST.Common\bin\Debug\SST.Common.pdb
+I:\svn\silmoon-server-tools\SST.Common\bin\Debug\Silmoon.xml
+I:\svn\silmoon-server-tools\SST.Common\bin\Debug\Silmoon.Windows.xml
+I:\svn\silmoon-server-tools\SST.Common\bin\Debug\Silmoon.dll
+I:\svn\silmoon-server-tools\SST.Common\bin\Debug\Silmoon.Web.dll
+I:\svn\silmoon-server-tools\SST.Common\bin\Debug\Silmoon.Windows.dll
+I:\svn\silmoon-server-tools\SST.Common\bin\Debug\Silmoon.pdb
+I:\svn\silmoon-server-tools\SST.Common\bin\Debug\Silmoon.Web.pdb
+I:\svn\silmoon-server-tools\SST.Common\bin\Debug\Silmoon.Windows.pdb

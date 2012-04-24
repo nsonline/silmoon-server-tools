@@ -59,17 +59,17 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\SilmoonClassLib\Dll\Interop.WMPLib.dll</HintPath>
     </Reference>
-    <Reference Include="Silmoon, Version=1.0.1.5, Culture=neutral, processorArchitecture=MSIL">
+    <Reference Include="Silmoon, Version=0.0.0.70, Culture=neutral, PublicKeyToken=5077a436830b90d8, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\SilmoonClassLib\Silmoon.Media\bin\Debug\Silmoon.dll</HintPath>
+      <HintPath>..\..\silmoon-dotnet-library\SilmoonClassLib\bin\Debug\Silmoon.dll</HintPath>
     </Reference>
-    <Reference Include="Silmoon.Media, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5dfb04a9058d82d5, processorArchitecture=MSIL">
+    <Reference Include="Silmoon.Media, Version=0.0.0.33, Culture=neutral, PublicKeyToken=5077a436830b90d8, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\SilmoonClassLib\Silmoon.Media\bin\Debug\Silmoon.Media.dll</HintPath>
+      <HintPath>..\..\silmoon-dotnet-library\Silmoon.Media\bin\Debug\Silmoon.Media.dll</HintPath>
     </Reference>
-    <Reference Include="Silmoon.Windows, Version=0.0.0.19, Culture=neutral, PublicKeyToken=bc6a88a9d02cffba, processorArchitecture=MSIL">
+    <Reference Include="Silmoon.Windows, Version=0.0.0.26, Culture=neutral, PublicKeyToken=5077a436830b90d8, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\SilmoonClassLib\Silmoon.Windows\bin\Debug\Silmoon.Windows.dll</HintPath>
+      <HintPath>..\..\silmoon-dotnet-library\Silmoon.Windows\bin\Debug\Silmoon.Windows.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
