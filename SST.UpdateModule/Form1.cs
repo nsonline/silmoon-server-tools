@@ -125,8 +125,8 @@ namespace SST.UpdateModule
                 {
                     Invoke(new EventHandler(delegate(object o, EventArgs ea)
                     {
-                        Process.Start("Silmoon.Update.App.exe");
                         MessageBox.Show("Çë×ÔÐÐÉ¾³ýSST.UpdateModule.exe£¡£¡£¡");
+                        Process.Start("Silmoon.Update.App.exe");
                         Close();
                         return;
                     }), null);

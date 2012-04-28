@@ -81,7 +81,7 @@ public class GBC : Silmoon.MySilmoon.SilmoonProductGBCInternat
 
     private void InitClass()
     {
-        InitProductInfo("silmoonservertool", "7.16");
+        InitProductInfo("silmoonservertool", "7.17");
         Pathinfo = new PathInfo(this);
         LoggerObj = new Logger(this);
         _ini = new IniFile(Pathinfo.ConfigPath);

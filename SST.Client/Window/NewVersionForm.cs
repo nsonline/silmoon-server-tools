@@ -11,10 +11,12 @@ namespace SST.Client.Window
 {
     public partial class NewVersionForm : Form
     {
-        public NewVersionForm()
+        GBC g = null;
+        public NewVersionForm(GBC g)
         {
+            this.g = g;
             InitializeComponent();
-            Show();
+            Show((IWin32Window)g.MainForm);
         }
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
