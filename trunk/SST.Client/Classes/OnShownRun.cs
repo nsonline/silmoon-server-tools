@@ -18,7 +18,7 @@ namespace SST.Client.Classes
 
             if ((string)_g.Reg.ReadKey("Version") != _g.GetAppVersion)
             {
-                new SST.Client.Window.NewVersionForm();
+                new SST.Client.Window.NewVersionForm(_g);
                 _g.Reg.WriteKey("Version", _g.GetAppVersion, Microsoft.Win32.RegistryValueKind.String);
             }
         }
