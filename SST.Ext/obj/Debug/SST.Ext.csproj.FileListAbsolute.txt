@@ -335,7 +335,6 @@ I:\svn\silmoon-server-tools\SST.Ext\bin\Debug\SST.Resource.pdb
 I:\svn\silmoon-server-tools\SST.Ext\bin\Debug\Silmoon.xml
 I:\svn\silmoon-server-tools\SST.Ext\bin\Debug\Silmoon.Windows.xml
 I:\svn\silmoon-server-tools\SST.Ext\bin\Debug\Silmoon.Windows.Server.xml
-I:\svn\silmoon-server-tools\SST.Ext\obj\Debug\ResolveAssemblyReference.cache
 I:\svn\silmoon-server-tools\SST.Ext\obj\Debug\SST.Ext.Database.MSSQL.MSSQLChangePassword.resources
 I:\svn\silmoon-server-tools\SST.Ext\obj\Debug\SST.Ext.Database.MSSQL.MSSQLConfig.resources
 I:\svn\silmoon-server-tools\SST.Ext\obj\Debug\SST.Ext.Database.MSSQL.MSSQLDatabase.resources
@@ -381,10 +380,6 @@ I:\svn\silmoon-server-tools\SST.Ext\obj\Debug\SST.Ext.Tools.AntiARP.resources
 I:\svn\silmoon-server-tools\SST.Ext\obj\Debug\SST.Ext.Tools.HardFixTool.resources
 I:\svn\silmoon-server-tools\SST.Ext\obj\Debug\SST.Ext.Tools.ScanCode.resources
 I:\svn\silmoon-server-tools\SST.Ext\obj\Debug\SST.Ext.Tools.ScanCodeOptionWindow.resources
-I:\svn\silmoon-server-tools\SST.Ext\obj\Debug\GenerateResource-ResGen.read.1.tlog
-I:\svn\silmoon-server-tools\SST.Ext\obj\Debug\ResGen.read.1.tlog
-I:\svn\silmoon-server-tools\SST.Ext\obj\Debug\GenerateResource-ResGen.write.1.tlog
-I:\svn\silmoon-server-tools\SST.Ext\obj\Debug\ResGen.write.1.tlog
 I:\svn\silmoon-server-tools\SST.Ext\obj\Debug\SST.Ext.dll
 I:\svn\silmoon-server-tools\SST.Ext\obj\Debug\SST.Ext.pdb
 I:\svn\silmoon-server-tools\SST.Ext\bin\Debug\Silmoon.Data.dll
@@ -395,3 +390,6 @@ I:\svn\silmoon-server-tools\SST.Ext\bin\Debug\Silmoon.pdb
 I:\svn\silmoon-server-tools\SST.Ext\bin\Debug\Silmoon.Data.pdb
 I:\svn\silmoon-server-tools\SST.Ext\bin\Debug\Silmoon.Windows.pdb
 I:\svn\silmoon-server-tools\SST.Ext\bin\Debug\Silmoon.Windows.Server.pdb
+I:\svn\silmoon-server-tools\SST.Ext\obj\Debug\SST.Ext.csprojResolveAssemblyReference.cache
+I:\svn\silmoon-server-tools\SST.Ext\obj\Debug\SST.Ext.csproj.GenerateResource.Cache
+I:\svn\silmoon-server-tools\SST.Ext\bin\Debug\MySql.Data.dll

@@ -177,6 +177,22 @@ namespace SST.Ext.Security
 
             try
             {
+                _args.FilePath = @"C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files";
+                DirectorySecurity net1tmp_sec = Directory.GetAccessControl(@"C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files");
+                net1tmp_sec = AddAccessRule(net1tmp_sec, "NETWORK SERVICE", FileSystemRights.FullControl, true);
+                //net1tmp_sec = AddAccessRule(net1tmp_sec, "IIS_WPG", FileSystemRights.Read, true);
+                _args.Name = "NULL";
+                _args.Type = AccessRuleSetType.Appling;
+                onSetAccessRuleStatusChange(_args);
+                Directory.SetAccessControl(@"C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files", net1tmp_sec);
+                _args.Type = AccessRuleSetType.Applied;
+                onSetAccessRuleStatusChange(_args);
+            }
+            catch { }
+
+
+            try
+            {
                 _args.FilePath = @"C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files";
                 DirectorySecurity net1tmp_sec = Directory.GetAccessControl(@"C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files");
                 net1tmp_sec = AddAccessRule(net1tmp_sec, "NETWORK SERVICE", FileSystemRights.FullControl, true);
@@ -207,14 +223,14 @@ namespace SST.Ext.Security
 
             try
             {
-                _args.FilePath = @"C:\WINDOWS\system32\inetsrv\ASP Compiled Templates";
+                _args.FilePath = @"C:\Windows\system32\inetsrv\ASP Compiled Templates";
                 DirectorySecurity asptmp_sec = Directory.GetAccessControl(@"C:\WINDOWS\system32\inetsrv\ASP Compiled Templates");
                 //asptmp_sec = AddAccessRule(asptmp_sec, "IIS_WPG", FileSystemRights.Read, true);
                 asptmp_sec = AddAccessRule(asptmp_sec, "NETWORK", FileSystemRights.FullControl, true);
                 _args.Name = "NULL";
                 _args.Type = AccessRuleSetType.Appling;
                 onSetAccessRuleStatusChange(_args);
-                Directory.SetAccessControl(@"C:\WINDOWS\system32\inetsrv\ASP Compiled Templates", asptmp_sec);
+                Directory.SetAccessControl(@"C:\Windows\system32\inetsrv\ASP Compiled Templates", asptmp_sec);
                 _args.Type = AccessRuleSetType.Applied;
                 onSetAccessRuleStatusChange(_args);
             }

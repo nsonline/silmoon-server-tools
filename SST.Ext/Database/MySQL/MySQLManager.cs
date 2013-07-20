@@ -32,7 +32,10 @@ namespace SST.Ext.Database.MySQL
         void loginForm_FormClosed(object sender, FormClosedEventArgs e)
         {
             if (loginForm.ConnectionString == "close")
+            {
                 this.Close();
+                _g.MainForm.Focus();
+            }
             else
                 RefreshData();
             ctlsStatusText.Text = "µÇÂ½³É¹¦...";

@@ -30,7 +30,10 @@ namespace SST.Client.Classes
         }
         void _g_EverySecondEvent(object sender, EventArgs e)
         {
-            mf.C_TimeLabel.Text = DateTime.Now.ToString();
+            mf.Invoke(new Action<int>((int i) =>
+            {
+                mf.C_TimeLabel.Text = DateTime.Now.ToString();
+            }), 0);
         }
         void DrawMainForm()
         {

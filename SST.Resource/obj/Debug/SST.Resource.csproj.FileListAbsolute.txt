@@ -44,11 +44,8 @@ N:\svn\silmoon-server-tools\SST.Resource\obj\Debug\SST.Resource.dll
 N:\svn\silmoon-server-tools\SST.Resource\obj\Debug\SST.Resource.pdb
 I:\svn\silmoon-server-tools\SST.Resource\bin\Debug\SST.Resource.dll
 I:\svn\silmoon-server-tools\SST.Resource\bin\Debug\SST.Resource.pdb
-I:\svn\silmoon-server-tools\SST.Resource\obj\Debug\ResolveAssemblyReference.cache
 I:\svn\silmoon-server-tools\SST.Resource\obj\Debug\SST.Resource.Resource.resources
-I:\svn\silmoon-server-tools\SST.Resource\obj\Debug\GenerateResource-ResGen.read.1.tlog
-I:\svn\silmoon-server-tools\SST.Resource\obj\Debug\ResGen.read.1.tlog
-I:\svn\silmoon-server-tools\SST.Resource\obj\Debug\GenerateResource-ResGen.write.1.tlog
-I:\svn\silmoon-server-tools\SST.Resource\obj\Debug\ResGen.write.1.tlog
 I:\svn\silmoon-server-tools\SST.Resource\obj\Debug\SST.Resource.dll
 I:\svn\silmoon-server-tools\SST.Resource\obj\Debug\SST.Resource.pdb
+I:\svn\silmoon-server-tools\SST.Resource\obj\Debug\SST.Resource.csproj.GenerateResource.Cache
+I:\svn\silmoon-server-tools\SST.Resource\obj\Debug\SST.Resource.csprojResolveAssemblyReference.cache
