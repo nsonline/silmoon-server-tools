@@ -247,7 +247,11 @@ namespace SST.Ext.IIS
 
             if (File.Exists(loadedFile))
                 ini.FilePath = loadedFile;
-            else return false;
+            else
+            {
+                _g.LoggerObj.WriteLogLine("文件夹（" + loadedFile + "）不存在。");
+                return false;
+            }
 
             string siteID = ini.ReadInivalue(sectionID, "ID");
 
@@ -265,7 +269,11 @@ namespace SST.Ext.IIS
                     ctlsStateText.Text = "创建系统组...";
                     try
                     { sam.CreateGroup("SmIISMgrGroup", "银月IIS工具创建的用户组"); }
-                    catch { return false; }
+                    catch (Exception ex)
+                    {
+                        _g.LoggerObj.WriteLogLine("错误（" + ex.Message + "）。");
+                        return false;
+                    }
                 }
                 NTUserInfo userinfo = new NTUserInfo();
                 userinfo.Description = "银月IIS工具创建 " + ini.ReadInivalue(sectionID, "SiteName") + "(" + siteID + ")站点的账户";
@@ -280,7 +288,11 @@ namespace SST.Ext.IIS
                     ctlsStateText.Text = "设置主目录安全性...";
                     ACL.AddAccessRule(ini.ReadInivalue(sectionID, "DirectoryPath"), secUser.IdentityString);
                 }
-                catch { return false; }
+                catch (Exception ex)
+                {
+                    _g.LoggerObj.WriteLogLine("错误（" + ex.Message + "）。");
+                    return false;
+                }
             }
 
             ctlsStateText.Text = "设置足够的信息...";

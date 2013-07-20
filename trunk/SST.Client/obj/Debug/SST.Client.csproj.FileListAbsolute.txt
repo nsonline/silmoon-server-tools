@@ -216,8 +216,6 @@ I:\svn\silmoon-server-tools\SST.Client\bin\Debug\Interop.WMPLib.dll
 I:\svn\silmoon-server-tools\SST.Client\bin\Debug\Silmoon.Windows.Server.dll
 I:\svn\silmoon-server-tools\SST.Client\bin\Debug\Silmoon.Data.dll
 I:\svn\silmoon-server-tools\SST.Client\bin\Debug\MySql.Data.dll
-I:\svn\silmoon-server-tools\SST.Client\bin\Debug\Microsoft.DirectX.AudioVideoPlayback.dll
-I:\svn\silmoon-server-tools\SST.Client\bin\Debug\Microsoft.DirectX.dll
 I:\svn\silmoon-server-tools\SST.Client\bin\Debug\SST.Common.pdb
 I:\svn\silmoon-server-tools\SST.Client\bin\Debug\SST.Controls.pdb
 I:\svn\silmoon-server-tools\SST.Client\bin\Debug\SST.DLLManager.pdb
@@ -228,7 +226,6 @@ I:\svn\silmoon-server-tools\SST.Client\bin\Debug\SST.Ext.pdb
 I:\svn\silmoon-server-tools\SST.Client\bin\Debug\Silmoon.xml
 I:\svn\silmoon-server-tools\SST.Client\bin\Debug\Silmoon.Windows.xml
 I:\svn\silmoon-server-tools\SST.Client\bin\Debug\Silmoon.Windows.Server.xml
-I:\svn\silmoon-server-tools\SST.Client\obj\Debug\ResolveAssemblyReference.cache
 I:\svn\silmoon-server-tools\SST.Client\obj\Debug\SST.Client.InitForm.resources
 I:\svn\silmoon-server-tools\SST.Client\obj\Debug\SST.Client.FormControls.GeneralPageControl.resources
 I:\svn\silmoon-server-tools\SST.Client\obj\Debug\SST.Client.MainForm.resources
@@ -240,10 +237,6 @@ I:\svn\silmoon-server-tools\SST.Client\obj\Debug\SST.Client.Window.FirstWelcome.
 I:\svn\silmoon-server-tools\SST.Client\obj\Debug\SST.Client.Window.ListForm.resources
 I:\svn\silmoon-server-tools\SST.Client\obj\Debug\SST.Client.Window.LogView.resources
 I:\svn\silmoon-server-tools\SST.Client\obj\Debug\SST.Client.Window.NewVersionForm.resources
-I:\svn\silmoon-server-tools\SST.Client\obj\Debug\GenerateResource-ResGen.read.1.tlog
-I:\svn\silmoon-server-tools\SST.Client\obj\Debug\ResGen.read.1.tlog
-I:\svn\silmoon-server-tools\SST.Client\obj\Debug\GenerateResource-ResGen.write.1.tlog
-I:\svn\silmoon-server-tools\SST.Client\obj\Debug\ResGen.write.1.tlog
 I:\svn\silmoon-server-tools\SST.Client\obj\Debug\SST.Client.dll
 I:\svn\silmoon-server-tools\SST.Client\obj\Debug\SST.Client.pdb
 I:\svn\silmoon-server-tools\SST.Client\bin\Debug\Silmoon.dll
@@ -253,3 +246,5 @@ I:\svn\silmoon-server-tools\SST.Client\bin\Debug\Silmoon.Windows.pdb
 I:\svn\silmoon-server-tools\SST.Client\bin\Debug\Silmoon.Media.pdb
 I:\svn\silmoon-server-tools\SST.Client\bin\Debug\Silmoon.Windows.Server.pdb
 I:\svn\silmoon-server-tools\SST.Client\bin\Debug\Silmoon.Data.pdb
+I:\svn\silmoon-server-tools\SST.Client\obj\Debug\SST.Client.csprojResolveAssemblyReference.cache
+I:\svn\silmoon-server-tools\SST.Client\obj\Debug\SST.Client.csproj.GenerateResource.Cache

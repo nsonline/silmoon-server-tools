@@ -133,7 +133,6 @@ I:\svn\silmoon-server-tools\SST.Utility\bin\Debug\SST.Common.pdb
 I:\svn\silmoon-server-tools\SST.Utility\bin\Debug\SST.Resource.pdb
 I:\svn\silmoon-server-tools\SST.Utility\bin\Debug\Silmoon.xml
 I:\svn\silmoon-server-tools\SST.Utility\bin\Debug\Silmoon.Windows.xml
-I:\svn\silmoon-server-tools\SST.Utility\obj\Debug\ResolveAssemblyReference.cache
 I:\svn\silmoon-server-tools\SST.Utility\obj\Debug\SST.Utility.ImageFileChecker.resources
 I:\svn\silmoon-server-tools\SST.Utility\obj\Debug\SST.Utility.Net.NetworkConnectionViewerForm.resources
 I:\svn\silmoon-server-tools\SST.Utility\obj\Debug\SST.Utility.Net.NetworkMonitorForm.resources
@@ -143,13 +142,11 @@ I:\svn\silmoon-server-tools\SST.Utility\obj\Debug\SST.Utility.WindowsFirewall.Wi
 I:\svn\silmoon-server-tools\SST.Utility\obj\Debug\SST.Utility.WindowsFirewall.WindowsFirewallEditAppForm.resources
 I:\svn\silmoon-server-tools\SST.Utility\obj\Debug\SST.Utility.WindowsFirewall.WindowsFirewallEditPortForm.resources
 I:\svn\silmoon-server-tools\SST.Utility\obj\Debug\SST.Utility.WindowsFirewall.WindowsFirewallUtility.resources
-I:\svn\silmoon-server-tools\SST.Utility\obj\Debug\GenerateResource-ResGen.read.1.tlog
-I:\svn\silmoon-server-tools\SST.Utility\obj\Debug\ResGen.read.1.tlog
-I:\svn\silmoon-server-tools\SST.Utility\obj\Debug\GenerateResource-ResGen.write.1.tlog
-I:\svn\silmoon-server-tools\SST.Utility\obj\Debug\ResGen.write.1.tlog
 I:\svn\silmoon-server-tools\SST.Utility\obj\Debug\SST.Utility.dll
 I:\svn\silmoon-server-tools\SST.Utility\obj\Debug\SST.Utility.pdb
 I:\svn\silmoon-server-tools\SST.Utility\bin\Debug\Silmoon.dll
 I:\svn\silmoon-server-tools\SST.Utility\bin\Debug\Silmoon.Windows.dll
 I:\svn\silmoon-server-tools\SST.Utility\bin\Debug\Silmoon.pdb
 I:\svn\silmoon-server-tools\SST.Utility\bin\Debug\Silmoon.Windows.pdb
+I:\svn\silmoon-server-tools\SST.Utility\obj\Debug\SST.Utility.csprojResolveAssemblyReference.cache
+I:\svn\silmoon-server-tools\SST.Utility\obj\Debug\SST.Utility.csproj.GenerateResource.Cache

@@ -219,6 +219,10 @@
       <Project>{164CAB24-ECA7-46D4-97FF-CB0D9EF2AC27}</Project>
       <Name>SST.DLLManager</Name>
     </ProjectReference>
+    <ProjectReference Include="..\SST.Ext\SST.Ext.csproj">
+      <Project>{a775bb16-4bb3-4881-8f03-e1dfbbc01ff2}</Project>
+      <Name>SST.Ext</Name>
+    </ProjectReference>
     <ProjectReference Include="..\SST.Plus\SST.Plus.csproj">
       <Project>{F8627351-7251-4920-840B-16BC0FD821C9}</Project>
       <Name>SST.Plus</Name>
@@ -230,10 +234,6 @@
     <ProjectReference Include="..\SST.Resource\SST.Resource.csproj">
       <Project>{85CD85BF-B1F7-41EB-83BE-0922104E44E1}</Project>
       <Name>SST.Resource</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\SST.Ext\SST.Ext.csproj">
-      <Project>{A775BB16-4BB3-4881-8F03-E1DFBBC01FF2}</Project>
-      <Name>SST.Ext</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

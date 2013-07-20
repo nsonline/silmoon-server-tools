@@ -39,7 +39,7 @@ public class GBC : Silmoon.MySilmoon.SilmoonProductGBCInternat
     public ConfigRW Cfg;
 
     public Logger LoggerObj;
-    public object MainForm;
+    public Form MainForm;
     public NotifyIcon Tray;
     public ToolStripStatusLabel StatusLabel;
 
@@ -81,7 +81,7 @@ public class GBC : Silmoon.MySilmoon.SilmoonProductGBCInternat
 
     private void InitClass()
     {
-        InitProductInfo("silmoonservertool", "7.17");
+        InitProductInfo("silmoonservertool", 100, "8.0");
         Pathinfo = new PathInfo(this);
         LoggerObj = new Logger(this);
         _ini = new IniFile(Pathinfo.ConfigPath);

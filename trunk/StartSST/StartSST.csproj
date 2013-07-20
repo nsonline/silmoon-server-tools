@@ -39,6 +39,7 @@
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -96,6 +97,9 @@
       <DesignTime>True</DesignTime>
     </Compile>
     <BaseApplicationManifest Include="Properties\app.manifest" />
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="app.manifest" />
     <None Include="APP.SMD">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
@@ -113,12 +117,6 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
     <None Include="StartSST.snk" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\SST.Client\SST.Client.csproj">
-      <Project>{4995F45A-18CB-4373-A7CC-0DF9ED8F2D05}</Project>
-      <Name>SST.Client</Name>
-    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <Content Include="Plugin.txt">
@@ -145,6 +143,12 @@
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>false</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SST.Client\SST.Client.csproj">
+      <Project>{4995f45a-18cb-4373-a7cc-0df9ed8f2d05}</Project>
+      <Name>SST.Client</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
